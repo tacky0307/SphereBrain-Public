@@ -3,17 +3,16 @@ message: "If you use or discuss SphereBrain, please cite the archived release."
 title: "SphereBrain: An Open Experimental Framework for Experience-Shaped Structural Intelligence"
 type: software
 authors:
-  - family-names: "Takio"
-    alias: "縺溘″縺・
+  - family-names: "Kobayashi"
+    given-names: "Takio"
+    orcid: "https://orcid.org/0009-0009-2782-9242"
     affiliation: "Independent researcher"
-abstract: "An open experimental research framework investigating whether experience-driven changes in internal network structure can become a functional substrate for recognition, memory, selection, and higher-order organization."
+abstract: "An open experimental research framework investigating whether experience-driven changes in internal network structures can form intelligence."
 license: Apache-2.0
 repository-code: "https://github.com/tacky0307/SphereBrain-Public"
 keywords:
   - artificial intelligence
   - dynamic networks
-  - experience-driven learning
   - structural intelligence
-  - open research
-version: "0.1.0-open-research-preview"
-
+  - experience-driven learning
+  - cognitive architecture
