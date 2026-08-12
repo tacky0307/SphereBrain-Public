@@ -1,0 +1,4 @@
+﻿metric,order_pair,k,trials,value_mean,value_std
+final_route_similarity,晴れ→雨→曖昧 vs 曖昧→晴れ→雨,0,24,0.8952159625,0.049570477485375325
+final_route_similarity,晴れ→雨→曖昧 vs 雨→晴れ→曖昧,0,24,0.8786944066666665,0.06422069148170736
+final_route_similarity,雨→晴れ→曖昧 vs 曖昧→晴れ→雨,0,24,0.8554937245833333,0.08535732238163954

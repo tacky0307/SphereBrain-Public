@@ -1,0 +1,4055 @@
+{
+  "created_at": "2026-08-05T13:56:28",
+  "k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "feature_labels": [
+    "晴れ学習1",
+    "晴れ学習2",
+    "晴れ学習3",
+    "雨学習1",
+    "雨学習2",
+    "雨学習3",
+    "晴れ未経験",
+    "雨未経験",
+    "曖昧天気",
+    "遠い対照"
+  ],
+  "metric_rows": [
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "projection_seed": 20260804,
+      "k": 2,
+      "edge_count": 152,
+      "loss": 201.05732801595215,
+      "silhouette": 0.3028490321181578,
+      "stability": 1.0,
+      "stability_std_within": 0.0
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "projection_seed": 20260804,
+      "k": 3,
+      "edge_count": 152,
+      "loss": 167.26753095975232,
+      "silhouette": 0.26977810629074217,
+      "stability": 0.8493486406413384,
+      "stability_std_within": 0.06762730181798847
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "projection_seed": 20260804,
+      "k": 4,
+      "edge_count": 152,
+      "loss": 149.8422977506462,
+      "silhouette": 0.2705710977042614,
+      "stability": 0.7859663645869641,
+      "stability_std_within": 0.047710185482356185
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "projection_seed": 20260804,
+      "k": 5,
+      "edge_count": 152,
+      "loss": 132.56398724082936,
+      "silhouette": 0.3152961322134268,
+      "stability": 0.8332933949111188,
+      "stability_std_within": 0.047972612767745296
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "projection_seed": 20260804,
+      "k": 6,
+      "edge_count": 152,
+      "loss": 118.97804511278196,
+      "silhouette": 0.3857872350581983,
+      "stability": 0.7937107877309166,
+      "stability_std_within": 0.037500795937896514
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "projection_seed": 20260804,
+      "k": 7,
+      "edge_count": 152,
+      "loss": 104.11448360720806,
+      "silhouette": 0.40477742910397857,
+      "stability": 0.8784637504356919,
+      "stability_std_within": 0.0217548485490905
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "projection_seed": 20260804,
+      "k": 8,
+      "edge_count": 152,
+      "loss": 94.94317460317461,
+      "silhouette": 0.44673792111320315,
+      "stability": 0.8851625130707563,
+      "stability_std_within": 0.02052494625800678
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "projection_seed": 20260804,
+      "k": 2,
+      "edge_count": 152,
+      "loss": 201.05732801595215,
+      "silhouette": 0.3028490321181578,
+      "stability": 0.9951311432554897,
+      "stability_std_within": 0.01288178411517374
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "projection_seed": 20260804,
+      "k": 3,
+      "edge_count": 152,
+      "loss": 167.464513718373,
+      "silhouette": 0.27251958872667165,
+      "stability": 0.8371056988497735,
+      "stability_std_within": 0.0815519643722449
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "projection_seed": 20260804,
+      "k": 4,
+      "edge_count": 152,
+      "loss": 147.8791317804849,
+      "silhouette": 0.273115733356631,
+      "stability": 0.8030672708260718,
+      "stability_std_within": 0.09298251652455078
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "projection_seed": 20260804,
+      "k": 5,
+      "edge_count": 152,
+      "loss": 134.70984645248532,
+      "silhouette": 0.2938505374457127,
+      "stability": 0.8136872603694667,
+      "stability_std_within": 0.04917325626304437
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "projection_seed": 20260804,
+      "k": 6,
+      "edge_count": 152,
+      "loss": 120.76455026455027,
+      "silhouette": 0.3367863123293151,
+      "stability": 0.8450135064482398,
+      "stability_std_within": 0.046198790004300494
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "projection_seed": 20260804,
+      "k": 7,
+      "edge_count": 152,
+      "loss": 101.85329634246042,
+      "silhouette": 0.40372237297096575,
+      "stability": 0.8487713489020565,
+      "stability_std_within": 0.03310682082831831
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "projection_seed": 20260804,
+      "k": 8,
+      "edge_count": 152,
+      "loss": 93.85277777777779,
+      "silhouette": 0.4419067044024633,
+      "stability": 0.898385761589404,
+      "stability_std_within": 0.01863439636152764
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "projection_seed": 20260804,
+      "k": 2,
+      "edge_count": 152,
+      "loss": 201.05732801595215,
+      "silhouette": 0.3028490321181578,
+      "stability": 1.0,
+      "stability_std_within": 0.0
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "projection_seed": 20260804,
+      "k": 3,
+      "edge_count": 152,
+      "loss": 167.2992750783699,
+      "silhouette": 0.26847540100178074,
+      "stability": 0.8546531892645521,
+      "stability_std_within": 0.0856617103475561
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "projection_seed": 20260804,
+      "k": 4,
+      "edge_count": 152,
+      "loss": 148.3151515151515,
+      "silhouette": 0.2662448074127861,
+      "stability": 0.823065528058557,
+      "stability_std_within": 0.0578814488133231
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "projection_seed": 20260804,
+      "k": 5,
+      "edge_count": 152,
+      "loss": 133.41378382016424,
+      "silhouette": 0.3072868271077825,
+      "stability": 0.790660944579993,
+      "stability_std_within": 0.0542956159651567
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "projection_seed": 20260804,
+      "k": 6,
+      "edge_count": 152,
+      "loss": 119.12031594758359,
+      "silhouette": 0.3820618700095209,
+      "stability": 0.8072716974555594,
+      "stability_std_within": 0.034017569419354764
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "projection_seed": 20260804,
+      "k": 7,
+      "edge_count": 152,
+      "loss": 107.10956937799043,
+      "silhouette": 0.3921744634349917,
+      "stability": 0.8073152666434298,
+      "stability_std_within": 0.027680762105937534
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "projection_seed": 20260804,
+      "k": 8,
+      "edge_count": 152,
+      "loss": 99.69285407088488,
+      "silhouette": 0.38706641619774207,
+      "stability": 0.8618965667479959,
+      "stability_std_within": 0.021320449199470924
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "projection_seed": 20260804,
+      "k": 2,
+      "edge_count": 152,
+      "loss": 201.05732801595215,
+      "silhouette": 0.3028490321181578,
+      "stability": 0.9605481003834089,
+      "stability_std_within": 0.09055986185373952
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "projection_seed": 20260804,
+      "k": 3,
+      "edge_count": 152,
+      "loss": 167.26753095975232,
+      "silhouette": 0.26977810629074217,
+      "stability": 0.8357441617288254,
+      "stability_std_within": 0.08779522172754071
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "projection_seed": 20260804,
+      "k": 4,
+      "edge_count": 152,
+      "loss": 147.6223862500568,
+      "silhouette": 0.2753578127626656,
+      "stability": 0.7862604566050889,
+      "stability_std_within": 0.04025546430934597
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "projection_seed": 20260804,
+      "k": 5,
+      "edge_count": 152,
+      "loss": 132.79837164750958,
+      "silhouette": 0.31988926712827576,
+      "stability": 0.8133604914604392,
+      "stability_std_within": 0.05951200900524676
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "projection_seed": 20260804,
+      "k": 6,
+      "edge_count": 152,
+      "loss": 116.47997835497836,
+      "silhouette": 0.3466355541376774,
+      "stability": 0.8444362147089579,
+      "stability_std_within": 0.031415038650235594
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "projection_seed": 20260804,
+      "k": 7,
+      "edge_count": 152,
+      "loss": 101.35475601228778,
+      "silhouette": 0.42173254482708233,
+      "stability": 0.8776250435691879,
+      "stability_std_within": 0.02957397836205242
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "projection_seed": 20260804,
+      "k": 8,
+      "edge_count": 152,
+      "loss": 97.85556356305784,
+      "silhouette": 0.3980974292681189,
+      "stability": 0.8556117113976995,
+      "stability_std_within": 0.0325683977934657
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "projection_seed": 20260804,
+      "k": 2,
+      "edge_count": 152,
+      "loss": 201.05732801595215,
+      "silhouette": 0.3028490321181578,
+      "stability": 1.0,
+      "stability_std_within": 0.0
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "projection_seed": 20260804,
+      "k": 3,
+      "edge_count": 152,
+      "loss": 168.32652329749104,
+      "silhouette": 0.27461044695658776,
+      "stability": 0.8512874695015684,
+      "stability_std_within": 0.062364585135302984
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "projection_seed": 20260804,
+      "k": 4,
+      "edge_count": 152,
+      "loss": 150.26934584655726,
+      "silhouette": 0.2691913177123326,
+      "stability": 0.7536598117811084,
+      "stability_std_within": 0.06353445356138326
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "projection_seed": 20260804,
+      "k": 5,
+      "edge_count": 152,
+      "loss": 133.94420354864434,
+      "silhouette": 0.31558324495853596,
+      "stability": 0.7812282154060648,
+      "stability_std_within": 0.07834955045375955
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "projection_seed": 20260804,
+      "k": 6,
+      "edge_count": 152,
+      "loss": 117.54141376167692,
+      "silhouette": 0.3624430417024392,
+      "stability": 0.816355873126525,
+      "stability_std_within": 0.03301506779083635
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "projection_seed": 20260804,
+      "k": 7,
+      "edge_count": 152,
+      "loss": 101.95818449285268,
+      "silhouette": 0.4132758729183177,
+      "stability": 0.858748692924364,
+      "stability_std_within": 0.024092815430248483
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "projection_seed": 20260804,
+      "k": 8,
+      "edge_count": 152,
+      "loss": 96.09011164274321,
+      "silhouette": 0.4104515758771441,
+      "stability": 0.8717105263157895,
+      "stability_std_within": 0.016317620631082847
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "projection_seed": 20260804,
+      "k": 2,
+      "edge_count": 152,
+      "loss": 201.06509988249118,
+      "silhouette": 0.29546647584176017,
+      "stability": 0.965918002788428,
+      "stability_std_within": 0.012881784115173742
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "projection_seed": 20260804,
+      "k": 3,
+      "edge_count": 152,
+      "loss": 167.37608157587908,
+      "silhouette": 0.27115221676590384,
+      "stability": 0.8655672708260718,
+      "stability_std_within": 0.10397275946531577
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "projection_seed": 20260804,
+      "k": 4,
+      "edge_count": 152,
+      "loss": 148.21229024525172,
+      "silhouette": 0.277816909712746,
+      "stability": 0.7975775531544091,
+      "stability_std_within": 0.06470028799671779
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "projection_seed": 20260804,
+      "k": 5,
+      "edge_count": 152,
+      "loss": 134.41376518218624,
+      "silhouette": 0.3139995130030508,
+      "stability": 0.7822629836179853,
+      "stability_std_within": 0.024647484678378125
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "projection_seed": 20260804,
+      "k": 6,
+      "edge_count": 152,
+      "loss": 117.99211071156151,
+      "silhouette": 0.34849282613336763,
+      "stability": 0.8480742418961311,
+      "stability_std_within": 0.061147100619124685
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "projection_seed": 20260804,
+      "k": 7,
+      "edge_count": 152,
+      "loss": 100.90162121604953,
+      "silhouette": 0.4177822246323073,
+      "stability": 0.8712421575461833,
+      "stability_std_within": 0.034880119768908736
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "projection_seed": 20260804,
+      "k": 8,
+      "edge_count": 152,
+      "loss": 92.42620946305158,
+      "silhouette": 0.4507020379642944,
+      "stability": 0.9014682816312304,
+      "stability_std_within": 0.015979842352951124
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "projection_seed": 20261813,
+      "k": 2,
+      "edge_count": 141,
+      "loss": 207.66804878048782,
+      "silhouette": 0.24446425417340167,
+      "stability": 0.8368541033434651,
+      "stability_std_within": 0.07483519142813196
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "projection_seed": 20261813,
+      "k": 3,
+      "edge_count": 141,
+      "loss": 178.0834481932043,
+      "silhouette": 0.23156317854328803,
+      "stability": 0.7733029381965553,
+      "stability_std_within": 0.1436805939753217
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "projection_seed": 20261813,
+      "k": 4,
+      "edge_count": 141,
+      "loss": 160.1970124249616,
+      "silhouette": 0.24017457831139344,
+      "stability": 0.7050785207700101,
+      "stability_std_within": 0.0657925700122421
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "projection_seed": 20261813,
+      "k": 5,
+      "edge_count": 141,
+      "loss": 136.1340662344763,
+      "silhouette": 0.2757355697038957,
+      "stability": 0.8393743667679838,
+      "stability_std_within": 0.04835740959968073
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "projection_seed": 20261813,
+      "k": 6,
+      "edge_count": 141,
+      "loss": 124.68533231692297,
+      "silhouette": 0.31936599499442486,
+      "stability": 0.8418313069908814,
+      "stability_std_within": 0.05011164849586441
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "projection_seed": 20261813,
+      "k": 7,
+      "edge_count": 141,
+      "loss": 110.61601604278076,
+      "silhouette": 0.338294804831974,
+      "stability": 0.8677431610942249,
+      "stability_std_within": 0.01424424138545422
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "projection_seed": 20261813,
+      "k": 8,
+      "edge_count": 141,
+      "loss": 101.10805958747135,
+      "silhouette": 0.36649296766023987,
+      "stability": 0.8837132725430598,
+      "stability_std_within": 0.03182376909044559
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "projection_seed": 20262822,
+      "k": 2,
+      "edge_count": 138,
+      "loss": 207.13541666666669,
+      "silhouette": 0.2540687225885192,
+      "stability": 0.9964032582249022,
+      "stability_std_within": 0.009516084267025913
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "projection_seed": 20262822,
+      "k": 3,
+      "edge_count": 138,
+      "loss": 172.7822099418846,
+      "silhouette": 0.2558002294958003,
+      "stability": 0.9341611128742198,
+      "stability_std_within": 0.05672646161413375
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "projection_seed": 20262822,
+      "k": 4,
+      "edge_count": 138,
+      "loss": 154.6055796055796,
+      "silhouette": 0.22889159663164504,
+      "stability": 0.8199116682534645,
+      "stability_std_within": 0.052543430492586723
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "projection_seed": 20262822,
+      "k": 5,
+      "edge_count": 138,
+      "loss": 138.2336160216595,
+      "silhouette": 0.25602010066243114,
+      "stability": 0.8398127578546493,
+      "stability_std_within": 0.05394380793249859
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "projection_seed": 20262822,
+      "k": 6,
+      "edge_count": 138,
+      "loss": 126.95827922077922,
+      "silhouette": 0.2860956449944071,
+      "stability": 0.7989527134243097,
+      "stability_std_within": 0.019786039290087386
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "projection_seed": 20262822,
+      "k": 7,
+      "edge_count": 138,
+      "loss": 117.32305841553267,
+      "silhouette": 0.28325872446662614,
+      "stability": 0.8526129271130858,
+      "stability_std_within": 0.02951774550408166
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "projection_seed": 20262822,
+      "k": 8,
+      "edge_count": 138,
+      "loss": 104.07210144927535,
+      "silhouette": 0.34517261542497174,
+      "stability": 0.8748413202158045,
+      "stability_std_within": 0.020293817371227315
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "projection_seed": 20263831,
+      "k": 2,
+      "edge_count": 154,
+      "loss": 205.73214285714283,
+      "silhouette": 0.20473326334369904,
+      "stability": 0.7512307953484424,
+      "stability_std_within": 0.21657410415405226
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "projection_seed": 20263831,
+      "k": 3,
+      "edge_count": 154,
+      "loss": 173.05128205128204,
+      "silhouette": 0.22270003408506506,
+      "stability": 0.781480774127833,
+      "stability_std_within": 0.06938616138910307
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "projection_seed": 20263831,
+      "k": 4,
+      "edge_count": 154,
+      "loss": 156.0403133903134,
+      "silhouette": 0.23636857058270022,
+      "stability": 0.7462757830404889,
+      "stability_std_within": 0.09084257570413964
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "projection_seed": 20263831,
+      "k": 5,
+      "edge_count": 154,
+      "loss": 144.2502304069352,
+      "silhouette": 0.23443060669557803,
+      "stability": 0.7272196757490875,
+      "stability_std_within": 0.03936413187332325
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "projection_seed": 20263831,
+      "k": 6,
+      "edge_count": 154,
+      "loss": 124.75017939806672,
+      "silhouette": 0.2765056595302982,
+      "stability": 0.7898947457770986,
+      "stability_std_within": 0.06931212078752455
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "projection_seed": 20263831,
+      "k": 7,
+      "edge_count": 154,
+      "loss": 111.62735814909728,
+      "silhouette": 0.3127604613007438,
+      "stability": 0.8287496816908582,
+      "stability_std_within": 0.0265123470025798
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "projection_seed": 20263831,
+      "k": 8,
+      "edge_count": 154,
+      "loss": 99.04274365469412,
+      "silhouette": 0.37684519349574075,
+      "stability": 0.8628193701723114,
+      "stability_std_within": 0.02534236356870907
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "projection_seed": 20264840,
+      "k": 2,
+      "edge_count": 152,
+      "loss": 207.12942612942612,
+      "silhouette": 0.3406473399341199,
+      "stability": 0.9934646218194493,
+      "stability_std_within": 0.011319607055390897
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "projection_seed": 20264840,
+      "k": 3,
+      "edge_count": 152,
+      "loss": 179.9422084141185,
+      "silhouette": 0.21844672999642625,
+      "stability": 0.8262678633670268,
+      "stability_std_within": 0.12604593723994525
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "projection_seed": 20264840,
+      "k": 4,
+      "edge_count": 152,
+      "loss": 160.01921267138658,
+      "silhouette": 0.24339162700764222,
+      "stability": 0.773069884977344,
+      "stability_std_within": 0.09443877254244093
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "projection_seed": 20264840,
+      "k": 5,
+      "edge_count": 152,
+      "loss": 144.11118409508413,
+      "silhouette": 0.27783721708543624,
+      "stability": 0.7567205472289996,
+      "stability_std_within": 0.04011488351135103
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "projection_seed": 20264840,
+      "k": 6,
+      "edge_count": 152,
+      "loss": 132.53165786615736,
+      "silhouette": 0.2898932013311728,
+      "stability": 0.8010413035901012,
+      "stability_std_within": 0.03027132962090943
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "projection_seed": 20264840,
+      "k": 7,
+      "edge_count": 152,
+      "loss": 119.66312113650247,
+      "silhouette": 0.327411272996371,
+      "stability": 0.8569514639247124,
+      "stability_std_within": 0.05110318318681038
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "projection_seed": 20264840,
+      "k": 8,
+      "edge_count": 152,
+      "loss": 110.09768663550295,
+      "silhouette": 0.3534277826051377,
+      "stability": 0.8796945799930289,
+      "stability_std_within": 0.029499909733516474
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "projection_seed": 20265849,
+      "k": 2,
+      "edge_count": 123,
+      "loss": 198.75977443609023,
+      "silhouette": 0.2934928896467258,
+      "stability": 1.0,
+      "stability_std_within": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "projection_seed": 20265849,
+      "k": 3,
+      "edge_count": 123,
+      "loss": 172.1494092114782,
+      "silhouette": 0.21611483741001344,
+      "stability": 0.8590896974543516,
+      "stability_std_within": 0.07037831144695945
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "projection_seed": 20265849,
+      "k": 4,
+      "edge_count": 123,
+      "loss": 154.66931042884988,
+      "silhouette": 0.2377545890314636,
+      "stability": 0.7614620818339332,
+      "stability_std_within": 0.05332282602166858
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "projection_seed": 20265849,
+      "k": 5,
+      "edge_count": 123,
+      "loss": 134.99092440215264,
+      "silhouette": 0.2762281344144311,
+      "stability": 0.8098260695721711,
+      "stability_std_within": 0.05156659992285786
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "projection_seed": 20265849,
+      "k": 6,
+      "edge_count": 123,
+      "loss": 125.4821590518185,
+      "silhouette": 0.2830477343366259,
+      "stability": 0.8221378115420498,
+      "stability_std_within": 0.03333073264609778
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "projection_seed": 20265849,
+      "k": 7,
+      "edge_count": 123,
+      "loss": 109.94062307649264,
+      "silhouette": 0.3250558864987395,
+      "stability": 0.863704518192723,
+      "stability_std_within": 0.023709138892043954
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "projection_seed": 20265849,
+      "k": 8,
+      "edge_count": 123,
+      "loss": 100.12687312687314,
+      "silhouette": 0.35142962874653555,
+      "stability": 0.8772324403571905,
+      "stability_std_within": 0.01568143492797654
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "projection_seed": 20266858,
+      "k": 2,
+      "edge_count": 139,
+      "loss": 202.84476843910807,
+      "silhouette": 0.3179853505465021,
+      "stability": 1.0,
+      "stability_std_within": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "projection_seed": 20266858,
+      "k": 3,
+      "edge_count": 139,
+      "loss": 178.71129068462403,
+      "silhouette": 0.2070999346296727,
+      "stability": 0.842860494213325,
+      "stability_std_within": 0.11331314439203298
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "projection_seed": 20266858,
+      "k": 4,
+      "edge_count": 139,
+      "loss": 156.02976384049555,
+      "silhouette": 0.24034387225723075,
+      "stability": 0.7576634344698154,
+      "stability_std_within": 0.11317682178794385
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "projection_seed": 20266858,
+      "k": 5,
+      "edge_count": 139,
+      "loss": 142.14017094017095,
+      "silhouette": 0.2542343540082415,
+      "stability": 0.7984829527682202,
+      "stability_std_within": 0.06049177805855377
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "projection_seed": 20266858,
+      "k": 6,
+      "edge_count": 139,
+      "loss": 122.86021769674517,
+      "silhouette": 0.30588887161111544,
+      "stability": 0.8399280575539568,
+      "stability_std_within": 0.03648125113822564
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "projection_seed": 20266858,
+      "k": 7,
+      "edge_count": 139,
+      "loss": 110.2949938949939,
+      "silhouette": 0.3478456105601893,
+      "stability": 0.8490902929830049,
+      "stability_std_within": 0.0526689844752183
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "projection_seed": 20266858,
+      "k": 8,
+      "edge_count": 139,
+      "loss": 99.19946886446886,
+      "silhouette": 0.36558362042048265,
+      "stability": 0.8868600771556667,
+      "stability_std_within": 0.022054292146667324
+    }
+  ],
+  "hierarchy_rows": [
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 1.0,
+      "agreement": 0.7350993377483444
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.9671052631578947,
+      "agreement": 0.8597943534332521
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.7828947368421053,
+      "agreement": 0.7916521436040432
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.868421052631579,
+      "agreement": 0.8667654234925061
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.8289473684210527,
+      "agreement": 0.8814046706169397
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.7631578947368421,
+      "agreement": 0.8952596723597073
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 0.9671052631578947,
+      "agreement": 0.6876089229696758
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.8947368421052632,
+      "agreement": 0.7607180202161031
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.9078947368421053,
+      "agreement": 0.8677239456256536
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.9342105263157895,
+      "agreement": 0.8945625653537818
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.7697368421052632,
+      "agreement": 0.8231090972464273
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.7171052631578947,
+      "agreement": 0.8666782851167655
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 0.993421052631579,
+      "agreement": 0.7498257232485186
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.9473684210526315,
+      "agreement": 0.8197978389682816
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.7697368421052632,
+      "agreement": 0.6947542697804113
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.7105263157894737,
+      "agreement": 0.7391948414081562
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.8026315789473685,
+      "agreement": 0.8589229696758452
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.7171052631578947,
+      "agreement": 0.8030672708260718
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 1.0,
+      "agreement": 0.7350993377483444
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.8881578947368421,
+      "agreement": 0.7716103171836877
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.9276315789473685,
+      "agreement": 0.9043220634367375
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.7960526315789473,
+      "agreement": 0.8419309864064134
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.8223684210526315,
+      "agreement": 0.8486406413384454
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.7236842105263158,
+      "agreement": 0.8610142906936215
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 0.9802631578947368,
+      "agreement": 0.734140815615197
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.8421052631578947,
+      "agreement": 0.7876437783199721
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.868421052631579,
+      "agreement": 0.7968804461484837
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.8223684210526315,
+      "agreement": 0.8469850121993726
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.6842105263157895,
+      "agreement": 0.8196235622168003
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.7302631578947368,
+      "agreement": 0.8528232833739979
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 0.9605263157894737,
+      "agreement": 0.6885674451028233
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.9539473684210527,
+      "agreement": 0.8398396653886372
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.7171052631578947,
+      "agreement": 0.7283025444405716
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.9671052631578947,
+      "agreement": 0.9568665040083653
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.9013157894736842,
+      "agreement": 0.8922969675845243
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.75,
+      "agreement": 0.8859358661554548
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 0.8652482269503546,
+      "agreement": 0.7126646403242148
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.8014184397163121,
+      "agreement": 0.7365754812563323
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.8794326241134752,
+      "agreement": 0.7528875379939209
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.7446808510638298,
+      "agreement": 0.7908814589665654
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.7588652482269503,
+      "agreement": 0.860081053698075
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.7801418439716312,
+      "agreement": 0.8910840932117527
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 0.8768115942028986,
+      "agreement": 0.7360626256214958
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.9855072463768116,
+      "agreement": 0.8810959483761769
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.7971014492753623,
+      "agreement": 0.7964667301385804
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.8260869565217391,
+      "agreement": 0.829260552205649
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.6521739130434783,
+      "agreement": 0.7777425156035122
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.8115942028985508,
+      "agreement": 0.8723156669840262
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 0.8831168831168831,
+      "agreement": 0.6101349630761396
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.9025974025974026,
+      "agreement": 0.8025634496222731
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.8831168831168831,
+      "agreement": 0.8304897716662423
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.9545454545454546,
+      "agreement": 0.965877259994907
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.7792207792207793,
+      "agreement": 0.7699685934980053
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.7532467532467533,
+      "agreement": 0.8594346829640948
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 1.0,
+      "agreement": 0.7130533286859533
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.9539473684210527,
+      "agreement": 0.828860230045312
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.9078947368421053,
+      "agreement": 0.8418438480306727
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.6776315789473685,
+      "agreement": 0.7608922969675845
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.756578947368421,
+      "agreement": 0.8356570233530847
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.75,
+      "agreement": 0.8386197281282677
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 0.991869918699187,
+      "agreement": 0.6978541916566706
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.8617886178861789,
+      "agreement": 0.8408636545381847
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.7804878048780488,
+      "agreement": 0.779021724643476
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.6585365853658537,
+      "agreement": 0.7668932427029188
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.8211382113821138,
+      "agreement": 0.8673863787818206
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.8292682926829268,
+      "agreement": 0.8781820605091297
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "parent_k": 2,
+      "child_k": 3,
+      "split_purity": 1.0,
+      "agreement": 0.7888645605254927
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "parent_k": 3,
+      "child_k": 4,
+      "split_purity": 0.9928057553956835,
+      "agreement": 0.961943488687311
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "parent_k": 4,
+      "child_k": 5,
+      "split_purity": 0.920863309352518,
+      "agreement": 0.852778646647899
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "parent_k": 5,
+      "child_k": 6,
+      "split_purity": 0.7913669064748201,
+      "agreement": 0.7926180794494839
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "parent_k": 6,
+      "child_k": 7,
+      "split_purity": 0.8057553956834532,
+      "agreement": 0.8805129809196122
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "parent_k": 7,
+      "child_k": 8,
+      "split_purity": 0.8561151079136691,
+      "agreement": 0.9279532895422792
+    }
+  ],
+  "type_rows": [
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 2,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 1,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 2,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 5,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 6,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 2,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 2,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 7,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 3,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 2,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 6,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 4,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 2,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 5,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 2,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "固定射影",
+      "trial": 6,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 2,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 4,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 6,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 1,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 2,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 5,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 6,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 7,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 4
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 2,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 2,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 3,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 2,
+      "semantic_name": "天気共通型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 3,
+      "semantic_name": "天気共通型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 7,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 4,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 2,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 6,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 7,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 5,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 2,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 3,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 6,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 7,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "cluster_count": 2
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "cluster_count": 1
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "cluster_count": 3
+    },
+    {
+      "group": "異なる射影",
+      "trial": 6,
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "cluster_count": 2
+    }
+  ],
+  "metric_summary": [
+    {
+      "group": "固定射影",
+      "k": 2,
+      "n": 6,
+      "silhouette_mean": 0.3016186060720915,
+      "silhouette_std": 0.002751316280290464,
+      "stability_mean": 0.9869328744045545,
+      "stability_std": 0.016917653774104608,
+      "loss_mean": 201.058623327042,
+      "loss_std": 0.002896403648888121
+    },
+    {
+      "group": "固定射影",
+      "k": 3,
+      "n": 6,
+      "silhouette_mean": 0.27105231100540467,
+      "silhouette_std": 0.00202940372999568,
+      "stability_mean": 0.8489510718020217,
+      "stability_std": 0.010238524981779422,
+      "loss_mean": 167.5002425982696,
+      "loss_std": 0.37597199889154365
+    },
+    {
+      "group": "固定射影",
+      "k": 4,
+      "n": 6,
+      "silhouette_mean": 0.2720496131102372,
+      "silhouette_std": 0.003859925236623936,
+      "stability_mean": 0.7915994975020332,
+      "stability_std": 0.021043666308096714,
+      "loss_mean": 148.6901005646914,
+      "loss_std": 0.9990118228666982
+    },
+    {
+      "group": "固定射影",
+      "k": 5,
+      "n": 6,
+      "silhouette_mean": 0.3109842536427974,
+      "silhouette_std": 0.008518306422252344,
+      "stability_mean": 0.8024155483908446,
+      "stability_std": 0.019120165324152758,
+      "loss_mean": 133.6406596486365,
+      "loss_std": 0.79089998091649
+    },
+    {
+      "group": "固定射影",
+      "k": 6,
+      "n": 6,
+      "silhouette_mean": 0.36036780656175305,
+      "silhouette_std": 0.018288261817799877,
+      "stability_mean": 0.8258103868943883,
+      "stability_std": 0.02111403800424318,
+      "loss_mean": 118.47940235885544,
+      "loss_std": 1.3537779163265353
+    },
+    {
+      "group": "固定射影",
+      "k": 7,
+      "n": 6,
+      "silhouette_mean": 0.40891081798127393,
+      "silhouette_std": 0.009884859370224885,
+      "stability_mean": 0.8570277100034854,
+      "stability_std": 0.024590854682347525,
+      "loss_mean": 102.88198517480815,
+      "loss_std": 2.143105197240896
+    },
+    {
+      "group": "固定射影",
+      "k": 8,
+      "n": 6,
+      "silhouette_mean": 0.4224936808038277,
+      "silhouette_std": 0.02501879475061639,
+      "stability_mean": 0.879039226792146,
+      "stability_std": 0.017374668659212188,
+      "loss_mean": 95.81011518678166,
+      "loss_std": 2.4280133158878794
+    },
+    {
+      "group": "異なる射影",
+      "k": 2,
+      "n": 6,
+      "silhouette_mean": 0.2758986367054946,
+      "silhouette_std": 0.04619238701621675,
+      "stability_mean": 0.9296587964560432,
+      "stability_std": 0.09905473150580159,
+      "loss_mean": 204.8782628848203,
+      "loss_std": 3.1687404452861205
+    },
+    {
+      "group": "異なる射影",
+      "k": 3,
+      "n": 6,
+      "silhouette_mean": 0.2252874906933776,
+      "silhouette_std": 0.015485623384580824,
+      "stability_mean": 0.8361938133722187,
+      "stability_std": 0.0535623643370955,
+      "loss_mean": 175.78664141609863,
+      "loss_std": 3.184229086151059
+    },
+    {
+      "group": "異なる射影",
+      "k": 4,
+      "n": 6,
+      "silhouette_mean": 0.23782080563701258,
+      "silhouette_std": 0.004560414938532563,
+      "stability_mean": 0.7605768955575093,
+      "stability_std": 0.03408458417196952,
+      "loss_mean": 156.92686539359778,
+      "loss_std": 2.321355964115386
+    },
+    {
+      "group": "異なる射影",
+      "k": 5,
+      "n": 6,
+      "silhouette_mean": 0.2624143304283356,
+      "silhouette_std": 0.0157957220565387,
+      "stability_mean": 0.7952393949901854,
+      "stability_std": 0.04136898192241303,
+      "loss_mean": 139.97669868341313,
+      "loss_std": 3.7125858397267506
+    },
+    {
+      "group": "異なる射影",
+      "k": 6,
+      "n": 6,
+      "silhouette_mean": 0.2934661844663407,
+      "silhouette_std": 0.014653884076076953,
+      "stability_mean": 0.8156309898130663,
+      "stability_std": 0.02029992181634994,
+      "loss_mean": 126.21130425841498,
+      "loss_std": 3.0748916355203053
+    },
+    {
+      "group": "異なる射影",
+      "k": 7,
+      "n": 6,
+      "silhouette_mean": 0.3224377934424406,
+      "silhouette_std": 0.02064478180321404,
+      "stability_mean": 0.8531420074997683,
+      "stability_std": 0.012589374829793243,
+      "loss_mean": 113.24419511923328,
+      "loss_std": 3.8072868763641403
+    },
+    {
+      "group": "異なる射影",
+      "k": 8,
+      "n": 6,
+      "silhouette_mean": 0.35982530139218466,
+      "silhouette_std": 0.010750267520452602,
+      "stability_mean": 0.877526843406177,
+      "stability_std": 0.0076777678666438975,
+      "loss_mean": 102.27448888638095,
+      "loss_std": 3.8795740764005533
+    }
+  ],
+  "hierarchy_summary": [
+    {
+      "group": "固定射影",
+      "parent_k": 2,
+      "child_k": 3,
+      "n": 6,
+      "split_purity_mean": 0.9835526315789473,
+      "split_purity_std": 0.01554544613898886,
+      "agreement_mean": 0.7217235970721506,
+      "agreement_std": 0.02437512082630922
+    },
+    {
+      "group": "固定射影",
+      "parent_k": 3,
+      "child_k": 4,
+      "n": 6,
+      "split_purity_mean": 0.9155701754385964,
+      "split_purity_std": 0.04420097449725082,
+      "agreement_mean": 0.8065673289183223,
+      "agreement_std": 0.036049649684437406
+    },
+    {
+      "group": "固定射影",
+      "parent_k": 4,
+      "child_k": 5,
+      "n": 6,
+      "split_purity_mean": 0.8289473684210527,
+      "split_purity_std": 0.0770982273300305,
+      "agreement_mean": 0.7972725688393169,
+      "agreement_std": 0.07271130085502327
+    },
+    {
+      "group": "固定射影",
+      "parent_k": 5,
+      "child_k": 6,
+      "n": 6,
+      "split_purity_mean": 0.849780701754386,
+      "split_purity_std": 0.0858980338670346,
+      "agreement_mean": 0.8577175554780992,
+      "agreement_std": 0.0654242178169941
+    },
+    {
+      "group": "固定射影",
+      "parent_k": 6,
+      "child_k": 7,
+      "n": 6,
+      "split_purity_mean": 0.8015350877192983,
+      "split_purity_std": 0.06572548057300748,
+      "agreement_mean": 0.8539996514464971,
+      "agreement_std": 0.027100490156543533
+    },
+    {
+      "group": "固定射影",
+      "parent_k": 7,
+      "child_k": 8,
+      "n": 6,
+      "split_purity_mean": 0.7335526315789473,
+      "split_purity_std": 0.01730233973471439,
+      "agreement_mean": 0.8607964447542699,
+      "agreement_std": 0.02958202408305231
+    },
+    {
+      "group": "異なる射影",
+      "parent_k": 2,
+      "child_k": 3,
+      "n": 6,
+      "split_purity_mean": 0.9361744371615539,
+      "split_purity_std": 0.06139892787779775,
+      "agreement_mean": 0.7097723849816612,
+      "agreement_std": 0.053284672426856965
+    },
+    {
+      "group": "異なる射影",
+      "parent_k": 3,
+      "child_k": 4,
+      "n": 6,
+      "split_purity_mean": 0.9163441383989069,
+      "split_purity_std": 0.0688199475301518,
+      "agreement_mean": 0.841983708754265,
+      "agreement_std": 0.06923203444334532
+    },
+    {
+      "group": "異なる射影",
+      "parent_k": 4,
+      "child_k": 5,
+      "n": 6,
+      "split_purity_mean": 0.8614828012630653,
+      "split_purity_std": 0.0535030997020214,
+      "agreement_mean": 0.8089147098534651,
+      "agreement_std": 0.03573383815272435
+    },
+    {
+      "group": "異なる射影",
+      "parent_k": 5,
+      "child_k": 6,
+      "n": 6,
+      "split_purity_mean": 0.7754747221531776,
+      "split_purity_std": 0.09922748106761929,
+      "agreement_mean": 0.8177371483811848,
+      "agreement_std": 0.06981752055586585
+    },
+    {
+      "group": "異なる射影",
+      "parent_k": 6,
+      "child_k": 7,
+      "n": 6,
+      "split_purity_mean": 0.7622887491541994,
+      "split_purity_std": 0.054480732884681526,
+      "agreement_mean": 0.8318914243090184,
+      "agreement_std": 0.04320363370358855
+    },
+    {
+      "group": "異なる射影",
+      "parent_k": 7,
+      "child_k": 8,
+      "n": 6,
+      "split_purity_mean": 0.7967277001189218,
+      "split_purity_std": 0.03906389764931243,
+      "agreement_mean": 0.8779315868899252,
+      "agreement_std": 0.02767164055595407
+    }
+  ],
+  "type_summary": [
+    {
+      "group": "固定射影",
+      "k": 2,
+      "semantic_name": "晴れ中心型",
+      "n": 6,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "固定射影",
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "固定射影",
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "n": 6,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "固定射影",
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "固定射影",
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "固定射影",
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "n": 6,
+      "cluster_count_mean": 1.6666666666666667,
+      "cluster_count_std": 0.4714045207910317
+    },
+    {
+      "group": "固定射影",
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.1666666666666667,
+      "cluster_count_std": 0.3726779962499649
+    },
+    {
+      "group": "固定射影",
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 1.1666666666666667,
+      "cluster_count_std": 0.37267799624996495
+    },
+    {
+      "group": "固定射影",
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "n": 6,
+      "cluster_count_mean": 1.8333333333333333,
+      "cluster_count_std": 0.3726779962499649
+    },
+    {
+      "group": "固定射影",
+      "k": 5,
+      "semantic_name": "橋渡し型",
+      "n": 1,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "固定射影",
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.3333333333333333,
+      "cluster_count_std": 0.4714045207910317
+    },
+    {
+      "group": "固定射影",
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 1.6666666666666667,
+      "cluster_count_std": 0.4714045207910317
+    },
+    {
+      "group": "固定射影",
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "n": 6,
+      "cluster_count_mean": 2.1666666666666665,
+      "cluster_count_std": 0.3726779962499649
+    },
+    {
+      "group": "固定射影",
+      "k": 6,
+      "semantic_name": "橋渡し型",
+      "n": 2,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "固定射影",
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.6666666666666667,
+      "cluster_count_std": 0.9428090415820634
+    },
+    {
+      "group": "固定射影",
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 1.8333333333333333,
+      "cluster_count_std": 0.6871842709362768
+    },
+    {
+      "group": "固定射影",
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "n": 6,
+      "cluster_count_mean": 2.8333333333333335,
+      "cluster_count_std": 0.3726779962499649
+    },
+    {
+      "group": "固定射影",
+      "k": 7,
+      "semantic_name": "橋渡し型",
+      "n": 1,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "固定射影",
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 2.3333333333333335,
+      "cluster_count_std": 0.4714045207910317
+    },
+    {
+      "group": "固定射影",
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 1.6666666666666667,
+      "cluster_count_std": 0.4714045207910317
+    },
+    {
+      "group": "固定射影",
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "n": 6,
+      "cluster_count_mean": 2.5,
+      "cluster_count_std": 0.5
+    },
+    {
+      "group": "固定射影",
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "n": 6,
+      "cluster_count_mean": 1.3333333333333333,
+      "cluster_count_std": 0.4714045207910317
+    },
+    {
+      "group": "固定射影",
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.8333333333333333,
+      "cluster_count_std": 0.37267799624996495
+    },
+    {
+      "group": "固定射影",
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 2.3333333333333335,
+      "cluster_count_std": 0.4714045207910317
+    },
+    {
+      "group": "異なる射影",
+      "k": 2,
+      "semantic_name": "天気共通型",
+      "n": 1,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 2,
+      "semantic_name": "晴れ中心型",
+      "n": 1,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 2,
+      "semantic_name": "橋渡し型",
+      "n": 2,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 2,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 2,
+      "semantic_name": "雨中心型",
+      "n": 2,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 3,
+      "semantic_name": "天気共通型",
+      "n": 1,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 3,
+      "semantic_name": "晴れ中心型",
+      "n": 3,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 3,
+      "semantic_name": "橋渡し型",
+      "n": 1,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 3,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.3333333333333333,
+      "cluster_count_std": 0.47140452079103173
+    },
+    {
+      "group": "異なる射影",
+      "k": 3,
+      "semantic_name": "雨中心型",
+      "n": 5,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 4,
+      "semantic_name": "晴れ中心型",
+      "n": 5,
+      "cluster_count_mean": 1.2,
+      "cluster_count_std": 0.4
+    },
+    {
+      "group": "異なる射影",
+      "k": 4,
+      "semantic_name": "橋渡し型",
+      "n": 1,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 4,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.3333333333333333,
+      "cluster_count_std": 0.4714045207910317
+    },
+    {
+      "group": "異なる射影",
+      "k": 4,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 1.5,
+      "cluster_count_std": 0.5
+    },
+    {
+      "group": "異なる射影",
+      "k": 5,
+      "semantic_name": "晴れ中心型",
+      "n": 5,
+      "cluster_count_mean": 1.6,
+      "cluster_count_std": 0.4898979485566356
+    },
+    {
+      "group": "異なる射影",
+      "k": 5,
+      "semantic_name": "橋渡し型",
+      "n": 1,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 5,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.8333333333333333,
+      "cluster_count_std": 0.8975274678557508
+    },
+    {
+      "group": "異なる射影",
+      "k": 5,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 1.6666666666666667,
+      "cluster_count_std": 0.4714045207910317
+    },
+    {
+      "group": "異なる射影",
+      "k": 6,
+      "semantic_name": "晴れ中心型",
+      "n": 5,
+      "cluster_count_mean": 2.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 6,
+      "semantic_name": "橋渡し型",
+      "n": 4,
+      "cluster_count_mean": 1.25,
+      "cluster_count_std": 0.4330127018922193
+    },
+    {
+      "group": "異なる射影",
+      "k": 6,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 1.5,
+      "cluster_count_std": 0.7637626158259734
+    },
+    {
+      "group": "異なる射影",
+      "k": 6,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 2.0,
+      "cluster_count_std": 0.5773502691896257
+    },
+    {
+      "group": "異なる射影",
+      "k": 7,
+      "semantic_name": "晴れ中心型",
+      "n": 5,
+      "cluster_count_mean": 2.0,
+      "cluster_count_std": 0.6324555320336759
+    },
+    {
+      "group": "異なる射影",
+      "k": 7,
+      "semantic_name": "橋渡し型",
+      "n": 4,
+      "cluster_count_mean": 1.5,
+      "cluster_count_std": 0.5
+    },
+    {
+      "group": "異なる射影",
+      "k": 7,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 2.0,
+      "cluster_count_std": 0.816496580927726
+    },
+    {
+      "group": "異なる射影",
+      "k": 7,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 2.3333333333333335,
+      "cluster_count_std": 0.7453559924999299
+    },
+    {
+      "group": "異なる射影",
+      "k": 8,
+      "semantic_name": "晴れ中心型",
+      "n": 6,
+      "cluster_count_mean": 2.0,
+      "cluster_count_std": 0.5773502691896257
+    },
+    {
+      "group": "異なる射影",
+      "k": 8,
+      "semantic_name": "橋渡し型",
+      "n": 5,
+      "cluster_count_mean": 1.0,
+      "cluster_count_std": 0.0
+    },
+    {
+      "group": "異なる射影",
+      "k": 8,
+      "semantic_name": "混合補助型",
+      "n": 6,
+      "cluster_count_mean": 2.6666666666666665,
+      "cluster_count_std": 0.7453559924999298
+    },
+    {
+      "group": "異なる射影",
+      "k": 8,
+      "semantic_name": "雨中心型",
+      "n": 6,
+      "cluster_count_mean": 2.5,
+      "cluster_count_std": 0.5
+    }
+  ]
+}

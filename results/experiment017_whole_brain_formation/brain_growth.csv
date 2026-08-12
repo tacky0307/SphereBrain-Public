@@ -1,0 +1,5 @@
+﻿stage,trace_frame_index,trace_count,peak_activity_total,peak_active_node_count,used_node_count,node_usage_total,used_edge_count,edge_usage_total,mean_connected_weight,max_connected_weight
+initial,,0,0.0,0,0,0,0,0,0.44656659561343187,0.67557977050737
+experience,0,1,10.404230135756993,26,26,26,31,31,0.44954885105403597,0.675039306690964
+reflection_1,1,3,12.66258783125874,32,32,85,44,111,0.4566679106017227,0.6739596758254147
+reflection_2,2,3,12.66258783125874,32,32,85,44,111,0.4566679106017227,0.6739596758254147

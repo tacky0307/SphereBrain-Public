@@ -1,0 +1,8 @@
+# Minimal dependency set for the representative publication experiments:
+# v94, v95B, v97, and v98 (hotfix entry point).
+#
+# This file has been derived from source-level import inspection.
+# Exact versions will be frozen only after clean-environment execution succeeds.
+numpy>=1.26,<3
+Flask>=3.0,<4
+waitress>=3.0,<4

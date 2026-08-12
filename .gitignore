@@ -1,0 +1,30 @@
+# Python
+.venv/
+.venv-publication/
+venv/
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Sphere Brain local data
+data/
+*.db
+brain.json
+brain_view.html
+backups/
+
+# Audio and model cache
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

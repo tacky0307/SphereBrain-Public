@@ -1,0 +1,15 @@
+﻿projection_group,concept_group,metric,trials,value_mean,value_std
+固定射影,全体,rain_specific_shared_edges,5,0.0,0.0
+固定射影,全体,sunny_specific_shared_edges,5,8.0,0.0
+固定射影,全体,weather_common_edges,5,31.8,0.39999999999999997
+固定射影,晴れ・快適,cohesion_after,5,0.26441728018797794,0.000717494171501154
+固定射影,晴れ・快適,cohesion_before,5,0.1622528513054829,0.0
+固定射影,雨・不快,cohesion_after,5,0.2465267013294265,2.7755575615628914e-17
+固定射影,雨・不快,cohesion_before,5,0.14402666482453716,0.0
+異なる射影,全体,rain_specific_shared_edges,5,1.0,1.2649110640673518
+異なる射影,全体,sunny_specific_shared_edges,5,0.4,0.48989794855663565
+異なる射影,全体,weather_common_edges,5,47.8,8.63481325796916
+異なる射影,晴れ・快適,cohesion_after,5,0.20159794437166143,0.09893050176812516
+異なる射影,晴れ・快適,cohesion_before,5,0.09726456341880903,0.056137748321985696
+異なる射影,雨・不快,cohesion_after,5,0.2317501923638577,0.08393964600991251
+異なる射影,雨・不快,cohesion_before,5,0.14038737297158893,0.07194661455449118

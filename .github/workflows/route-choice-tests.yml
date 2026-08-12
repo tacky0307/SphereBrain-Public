@@ -1,0 +1,37 @@
+name: Route Choice tests
+
+on:
+  pull_request:
+    paths:
+      - "route_choice_lab.py"
+      - "route_choice_lab_runner.py"
+      - "route_choice_lab_guarded_runner.py"
+      - "test_route_choice_lab_runner.py"
+      - "test_route_choice_guarded_runner.py"
+      - ".github/workflows/route-choice-tests.yml"
+  push:
+    branches:
+      - main
+      - "fix/route-choice-feedback-decoder-bias"
+    paths:
+      - "route_choice_lab.py"
+      - "route_choice_lab_runner.py"
+      - "route_choice_lab_guarded_runner.py"
+      - "test_route_choice_lab_runner.py"
+      - "test_route_choice_guarded_runner.py"
+      - ".github/workflows/route-choice-tests.yml"
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip numpy Flask waitress
+      - name: Run Route Choice unit tests
+        run: python -m unittest -v test_route_choice_lab_runner.py test_route_choice_guarded_runner.py

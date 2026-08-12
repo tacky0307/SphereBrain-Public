@@ -1,0 +1,4 @@
+﻿time_index,source,total_activity,active_node_count,stimulus_total,metadata
+0,experience,10.404230135756993,26,2.76,{'text': '空は青い'}
+1,reflection,11.235856431414499,27,10.404230135756993,"{'reflected_frame_index': 0, 'reflected_time_index': 0, 'reflected_source': 'experience'}"
+2,reflection,12.66258783125874,32,11.235856431414499,"{'reflected_frame_index': 1, 'reflected_time_index': 1, 'reflected_source': 'reflection'}"

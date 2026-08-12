@@ -1,0 +1,3839 @@
+{
+  "created_at": "2026-08-05T14:28:52",
+  "orders": {
+    "晴れ→雨→曖昧": [
+      "晴れ",
+      "雨",
+      "曖昧"
+    ],
+    "雨→晴れ→曖昧": [
+      "雨",
+      "晴れ",
+      "曖昧"
+    ],
+    "曖昧→晴れ→雨": [
+      "曖昧",
+      "晴れ",
+      "雨"
+    ]
+  },
+  "stage_rows": [
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 10,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.84453228,
+      "new_edges": 6,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.84453228,
+      "new_edges": 7,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.84119048,
+      "new_edges": 3,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.96370588,
+      "new_edges": 9,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 7,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91166667,
+      "new_edges": 1,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.9719697,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.94393939,
+      "new_edges": 0,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.90744102,
+      "new_edges": 4,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.91086207,
+      "new_edges": 6,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.88339921,
+      "new_edges": 13,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.97173913,
+      "new_edges": 11,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.79857143,
+      "new_edges": 1,
+      "removed_edges": 5
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 9,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.98030303,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.9719697,
+      "new_edges": 5,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 1,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.97347403,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.87411868,
+      "new_edges": 0,
+      "removed_edges": 5
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.95138889,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.95543103,
+      "new_edges": 9,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.92226614,
+      "new_edges": 7,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.84453228,
+      "new_edges": 4,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.84119048,
+      "new_edges": 3,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.96732625,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.96757519,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 5,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.95583333,
+      "new_edges": 2,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.94393939,
+      "new_edges": 3,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.95227273,
+      "new_edges": 7,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.90197876,
+      "new_edges": 5,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91551459,
+      "new_edges": 1,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 10,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.84453228,
+      "new_edges": 6,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.84453228,
+      "new_edges": 7,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.84119048,
+      "new_edges": 3,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.96370588,
+      "new_edges": 9,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 7,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91166667,
+      "new_edges": 1,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.9719697,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.94393939,
+      "new_edges": 0,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.90744102,
+      "new_edges": 4,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.91086207,
+      "new_edges": 6,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.88339921,
+      "new_edges": 13,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.97173913,
+      "new_edges": 11,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.79857143,
+      "new_edges": 1,
+      "removed_edges": 5
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 9,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.98030303,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.9719697,
+      "new_edges": 5,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 1,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.97347403,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.87411868,
+      "new_edges": 0,
+      "removed_edges": 5
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.95138889,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.95543103,
+      "new_edges": 9,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.92226614,
+      "new_edges": 7,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.84453228,
+      "new_edges": 4,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.84119048,
+      "new_edges": 3,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.96732625,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.96757519,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 5,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.95583333,
+      "new_edges": 2,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.94393939,
+      "new_edges": 3,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.95227273,
+      "new_edges": 7,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.90197876,
+      "new_edges": 5,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91551459,
+      "new_edges": 1,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 10,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.84453228,
+      "new_edges": 6,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.84453228,
+      "new_edges": 7,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.84119048,
+      "new_edges": 3,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.96370588,
+      "new_edges": 9,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 7,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91166667,
+      "new_edges": 1,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.9719697,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.94393939,
+      "new_edges": 0,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.90744102,
+      "new_edges": 4,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.91086207,
+      "new_edges": 6,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.88339921,
+      "new_edges": 13,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.97173913,
+      "new_edges": 11,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.79857143,
+      "new_edges": 1,
+      "removed_edges": 5
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 9,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.98030303,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.9719697,
+      "new_edges": 5,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 1,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.97347403,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.87411868,
+      "new_edges": 0,
+      "removed_edges": 5
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.95138889,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.95543103,
+      "new_edges": 9,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.92226614,
+      "new_edges": 7,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.84453228,
+      "new_edges": 4,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.84119048,
+      "new_edges": 3,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.96732625,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.96757519,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 5,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.95583333,
+      "new_edges": 2,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.94393939,
+      "new_edges": 3,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.95227273,
+      "new_edges": 7,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.90197876,
+      "new_edges": 5,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91551459,
+      "new_edges": 1,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.96904762,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 11,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.9147619,
+      "new_edges": 9,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.88948864,
+      "new_edges": 3,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 2,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 11,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 7,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91903409,
+      "new_edges": 4,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.90035714,
+      "new_edges": 3,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.9300986,
+      "new_edges": 8,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.97289199,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 8,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.92602627,
+      "new_edges": 3,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 14,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.96904762,
+      "new_edges": 11,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.95951705,
+      "new_edges": 2,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 5,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 9,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.97028226,
+      "new_edges": 5,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.92226614,
+      "new_edges": 3,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.93126362,
+      "new_edges": 2,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 8,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 2,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 9,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.96904762,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.95328947,
+      "new_edges": 18,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 11,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.97045455,
+      "new_edges": 13,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 4,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.9219697,
+      "new_edges": 8,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.941875,
+      "new_edges": 6,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.94548564,
+      "new_edges": 0,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.96912281,
+      "new_edges": 1,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 7,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 5,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.95083841,
+      "new_edges": 0,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.96904762,
+      "new_edges": 12,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.92160326,
+      "new_edges": 9,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.91832845,
+      "new_edges": 13,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 0,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.94230183,
+      "new_edges": 8,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 16,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.97155303,
+      "new_edges": 1,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.76428571,
+      "new_edges": 2,
+      "removed_edges": 6
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.95818078,
+      "new_edges": 5,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.95827759,
+      "new_edges": 2,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.98030303,
+      "new_edges": 3,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.96176471,
+      "new_edges": 5,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.9147619,
+      "new_edges": 13,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.96080163,
+      "new_edges": 17,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.91832845,
+      "new_edges": 7,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 4,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 7,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.95144928,
+      "new_edges": 6,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.96592593,
+      "new_edges": 7,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.80025,
+      "new_edges": 1,
+      "removed_edges": 6
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.91050725,
+      "new_edges": 4,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 1,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.98030303,
+      "new_edges": 2,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.92293103,
+      "new_edges": 4,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.87214286,
+      "new_edges": 11,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.84320652,
+      "new_edges": 7,
+      "removed_edges": 4
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.87749267,
+      "new_edges": 8,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.96904762,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 13,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.93,
+      "new_edges": 11,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.9662037,
+      "new_edges": 7,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.82352941,
+      "new_edges": 0,
+      "removed_edges": 5
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.95446429,
+      "new_edges": 3,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.97328904,
+      "new_edges": 12,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.92340909,
+      "new_edges": 1,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.92602627,
+      "new_edges": 2,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 14,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 5,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.92642857,
+      "new_edges": 6,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91481481,
+      "new_edges": 3,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.91590909,
+      "new_edges": 3,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 8,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.926125,
+      "new_edges": 7,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.90744102,
+      "new_edges": 2,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.94393939,
+      "new_edges": 3,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.97155303,
+      "new_edges": 1,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 5,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 11,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 5,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 10,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.96904762,
+      "new_edges": 12,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91481481,
+      "new_edges": 6,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.88693182,
+      "new_edges": 9,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 3,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.91068412,
+      "new_edges": 3,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.87855114,
+      "new_edges": 0,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.96935897,
+      "new_edges": 5,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.91465909,
+      "new_edges": 1,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 7,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 11,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 1.0,
+      "new_edges": 13,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 8,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.93809524,
+      "new_edges": 13,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.91481481,
+      "new_edges": 14,
+      "removed_edges": 2
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.9128125,
+      "new_edges": 7,
+      "removed_edges": 3
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "雨未経験",
+      "route_retention": 1.0,
+      "new_edges": 0,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "曖昧天気",
+      "route_retention": 0.97047697,
+      "new_edges": 4,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "probe": "遠い対照",
+      "route_retention": 0.96912281,
+      "new_edges": 1,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "晴れ未経験",
+      "route_retention": 0.9739899,
+      "new_edges": 0,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "雨未経験",
+      "route_retention": 0.9664916,
+      "new_edges": 6,
+      "removed_edges": 1
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "曖昧天気",
+      "route_retention": 1.0,
+      "new_edges": 2,
+      "removed_edges": 0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "probe": "遠い対照",
+      "route_retention": 1.0,
+      "new_edges": 2,
+      "removed_edges": 0
+    }
+  ],
+  "final_rows": [
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.37126967,
+      "rainy_affinity": 0.0833929,
+      "margin": 0.28787677,
+      "edge_count": 36
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.0661352,
+      "rainy_affinity": 0.25103723,
+      "margin": -0.18490203,
+      "edge_count": 35
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.18089951,
+      "rainy_affinity": 0.1802988,
+      "margin": 0.00060071,
+      "edge_count": 31
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.04847524,
+      "rainy_affinity": 0.00920659,
+      "margin": 0.03926865,
+      "edge_count": 21
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.37304785,
+      "rainy_affinity": 0.08548812,
+      "margin": 0.28755974,
+      "edge_count": 36
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.07459858,
+      "rainy_affinity": 0.25586085,
+      "margin": -0.18126227,
+      "edge_count": 37
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.17724926,
+      "rainy_affinity": 0.17797351,
+      "margin": -0.00072425,
+      "edge_count": 32
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.03700242,
+      "rainy_affinity": 0.00901956,
+      "margin": 0.02798286,
+      "edge_count": 20
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.39018098,
+      "rainy_affinity": 0.08641305,
+      "margin": 0.30376793,
+      "edge_count": 34
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.06035214,
+      "rainy_affinity": 0.25165188,
+      "margin": -0.19129975,
+      "edge_count": 38
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.18054145,
+      "rainy_affinity": 0.18992381,
+      "margin": -0.00938236,
+      "edge_count": 30
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.03805615,
+      "rainy_affinity": 0.00934641,
+      "margin": 0.02870974,
+      "edge_count": 20
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.37126967,
+      "rainy_affinity": 0.0833929,
+      "margin": 0.28787677,
+      "edge_count": 36
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.0661352,
+      "rainy_affinity": 0.25103723,
+      "margin": -0.18490203,
+      "edge_count": 35
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.18089951,
+      "rainy_affinity": 0.1802988,
+      "margin": 0.00060071,
+      "edge_count": 31
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.04847524,
+      "rainy_affinity": 0.00920659,
+      "margin": 0.03926865,
+      "edge_count": 21
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.37304785,
+      "rainy_affinity": 0.08548812,
+      "margin": 0.28755974,
+      "edge_count": 36
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.07459858,
+      "rainy_affinity": 0.25586085,
+      "margin": -0.18126227,
+      "edge_count": 37
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.17724926,
+      "rainy_affinity": 0.17797351,
+      "margin": -0.00072425,
+      "edge_count": 32
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.03700242,
+      "rainy_affinity": 0.00901956,
+      "margin": 0.02798286,
+      "edge_count": 20
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.39018098,
+      "rainy_affinity": 0.08641305,
+      "margin": 0.30376793,
+      "edge_count": 34
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.06035214,
+      "rainy_affinity": 0.25165188,
+      "margin": -0.19129975,
+      "edge_count": 38
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.18054145,
+      "rainy_affinity": 0.18992381,
+      "margin": -0.00938236,
+      "edge_count": 30
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.03805615,
+      "rainy_affinity": 0.00934641,
+      "margin": 0.02870974,
+      "edge_count": 20
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.37126967,
+      "rainy_affinity": 0.0833929,
+      "margin": 0.28787677,
+      "edge_count": 36
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.0661352,
+      "rainy_affinity": 0.25103723,
+      "margin": -0.18490203,
+      "edge_count": 35
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.18089951,
+      "rainy_affinity": 0.1802988,
+      "margin": 0.00060071,
+      "edge_count": 31
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.04847524,
+      "rainy_affinity": 0.00920659,
+      "margin": 0.03926865,
+      "edge_count": 21
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.37304785,
+      "rainy_affinity": 0.08548812,
+      "margin": 0.28755974,
+      "edge_count": 36
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.07459858,
+      "rainy_affinity": 0.25586085,
+      "margin": -0.18126227,
+      "edge_count": 37
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.17724926,
+      "rainy_affinity": 0.17797351,
+      "margin": -0.00072425,
+      "edge_count": 32
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.03700242,
+      "rainy_affinity": 0.00901956,
+      "margin": 0.02798286,
+      "edge_count": 20
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.39018098,
+      "rainy_affinity": 0.08641305,
+      "margin": 0.30376793,
+      "edge_count": 34
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.06035214,
+      "rainy_affinity": 0.25165188,
+      "margin": -0.19129975,
+      "edge_count": 38
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.18054145,
+      "rainy_affinity": 0.18992381,
+      "margin": -0.00938236,
+      "edge_count": 30
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.03805615,
+      "rainy_affinity": 0.00934641,
+      "margin": 0.02870974,
+      "edge_count": 20
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.13996928,
+      "rainy_affinity": 0.13030352,
+      "margin": 0.00966577,
+      "edge_count": 28
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.16191195,
+      "rainy_affinity": 0.28068847,
+      "margin": -0.11877652,
+      "edge_count": 46
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.18734648,
+      "rainy_affinity": 0.2399707,
+      "margin": -0.05262422,
+      "edge_count": 37
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "晴れ→雨→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.05220017,
+      "rainy_affinity": 0.10619166,
+      "margin": -0.05399149,
+      "edge_count": 32
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.12563129,
+      "rainy_affinity": 0.12138722,
+      "margin": 0.00424407,
+      "edge_count": 27
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.19772334,
+      "rainy_affinity": 0.29446315,
+      "margin": -0.09673981,
+      "edge_count": 50
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.20526938,
+      "rainy_affinity": 0.23848223,
+      "margin": -0.03321285,
+      "edge_count": 37
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "雨→晴れ→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.05098308,
+      "rainy_affinity": 0.10311052,
+      "margin": -0.05212743,
+      "edge_count": 33
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.12425003,
+      "rainy_affinity": 0.11898663,
+      "margin": 0.0052634,
+      "edge_count": 30
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.19852315,
+      "rainy_affinity": 0.28397407,
+      "margin": -0.08545092,
+      "edge_count": 48
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.20168627,
+      "rainy_affinity": 0.24325566,
+      "margin": -0.04156939,
+      "edge_count": 41
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order": "曖昧→晴れ→雨",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.05192747,
+      "rainy_affinity": 0.10258931,
+      "margin": -0.05066183,
+      "edge_count": 30
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.25318165,
+      "rainy_affinity": 0.26049441,
+      "margin": -0.00731276,
+      "edge_count": 41
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.20605437,
+      "rainy_affinity": 0.37528734,
+      "margin": -0.16923297,
+      "edge_count": 46
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.26721592,
+      "rainy_affinity": 0.20931997,
+      "margin": 0.05789594,
+      "edge_count": 35
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "晴れ→雨→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.00162037,
+      "rainy_affinity": 0.02509654,
+      "margin": -0.02347617,
+      "edge_count": 21
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.22654514,
+      "rainy_affinity": 0.25263269,
+      "margin": -0.02608755,
+      "edge_count": 39
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.17810781,
+      "rainy_affinity": 0.35669533,
+      "margin": -0.17858752,
+      "edge_count": 44
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.25527758,
+      "rainy_affinity": 0.21047794,
+      "margin": 0.04479964,
+      "edge_count": 34
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "雨→晴れ→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.01003673,
+      "rainy_affinity": 0.04168795,
+      "margin": -0.03165122,
+      "edge_count": 22
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.27579096,
+      "rainy_affinity": 0.27828415,
+      "margin": -0.00249318,
+      "edge_count": 43
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.23144036,
+      "rainy_affinity": 0.40440768,
+      "margin": -0.17296732,
+      "edge_count": 46
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.25964619,
+      "rainy_affinity": 0.19296746,
+      "margin": 0.06667873,
+      "edge_count": 31
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order": "曖昧→晴れ→雨",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.00157658,
+      "rainy_affinity": 0.0153355,
+      "margin": -0.01375892,
+      "edge_count": 21
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.17065217,
+      "rainy_affinity": 0.09284898,
+      "margin": 0.07780319,
+      "edge_count": 34
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.09949875,
+      "rainy_affinity": 0.23789791,
+      "margin": -0.13839915,
+      "edge_count": 33
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.10322731,
+      "rainy_affinity": 0.2374091,
+      "margin": -0.13418179,
+      "edge_count": 35
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "晴れ→雨→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.07070063,
+      "rainy_affinity": 0.08543246,
+      "margin": -0.01473183,
+      "edge_count": 30
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.14844342,
+      "rainy_affinity": 0.08449282,
+      "margin": 0.06395061,
+      "edge_count": 34
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.10519182,
+      "rainy_affinity": 0.21590575,
+      "margin": -0.11071393,
+      "edge_count": 31
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.09726317,
+      "rainy_affinity": 0.26257801,
+      "margin": -0.16531484,
+      "edge_count": 39
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "雨→晴れ→曖昧",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.07260011,
+      "rainy_affinity": 0.08232226,
+      "margin": -0.00972214,
+      "edge_count": 30
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "probe": "晴れ未経験",
+      "sunny_affinity": 0.14630388,
+      "rainy_affinity": 0.09428628,
+      "margin": 0.0520176,
+      "edge_count": 35
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "probe": "雨未経験",
+      "sunny_affinity": 0.10276675,
+      "rainy_affinity": 0.24713455,
+      "margin": -0.1443678,
+      "edge_count": 33
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "probe": "曖昧天気",
+      "sunny_affinity": 0.10357878,
+      "rainy_affinity": 0.22448939,
+      "margin": -0.1209106,
+      "edge_count": 37
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order": "曖昧→晴れ→雨",
+      "probe": "遠い対照",
+      "sunny_affinity": 0.07107501,
+      "rainy_affinity": 0.08452654,
+      "margin": -0.01345153,
+      "edge_count": 32
+    }
+  ],
+  "comparison_rows": [
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.85625
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.94964747
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.7675
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.87855114
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.94833333
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.88020833
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.91345274
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.87855114
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.80833333
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.84002439
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.74166667
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 1,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 1.0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.85625
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.94964747
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.7675
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.87855114
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.94833333
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.88020833
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.91345274
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.87855114
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.80833333
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.84002439
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.74166667
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 2,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 1.0
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.85625
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.94964747
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.7675
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.87855114
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.94833333
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.88020833
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.91345274
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.87855114
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.80833333
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.84002439
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.74166667
+    },
+    {
+      "projection_group": "固定射影",
+      "trial": 3,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 1.0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.82405914
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.875
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.88659091
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.98030303
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.84128289
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.87258467
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.87735562
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.95083841
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.86678291
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.87732539
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.87735562
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 1,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.93237251
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.83377897
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.8075
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.97328904
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.88240489
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.77268519
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.88800076
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.89315615
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 1.0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.70349584
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.71325634
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.91764706
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 2,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.88240489
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.8959596
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.90558069
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.86835366
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 1.0
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.79673913
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.96176471
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.865
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.90413895
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "晴れ未経験",
+      "k": 0,
+      "value": 0.88829853
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "雨未経験",
+      "k": 0,
+      "value": 0.94265734
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "曖昧天気",
+      "k": 0,
+      "value": 0.85604084
+    },
+    {
+      "projection_group": "異なる射影",
+      "trial": 3,
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "metric": "final_route_similarity",
+      "probe": "遠い対照",
+      "k": 0,
+      "value": 0.90413895
+    }
+  ],
+  "stage_summary": [
+    {
+      "order": "晴れ→雨→曖昧",
+      "transition": "1:晴れ追加後→2:雨追加後",
+      "trials": 24,
+      "route_retention_mean": 0.9571986425,
+      "route_retention_std": 0.05429247480018641,
+      "new_edges_mean": 5.458333333333333,
+      "new_edges_std": 3.796699955955903,
+      "removed_edges_mean": 1.125,
+      "removed_edges_std": 1.393810723639811
+    },
+    {
+      "order": "晴れ→雨→曖昧",
+      "transition": "2:雨追加後→3:曖昧追加後",
+      "trials": 24,
+      "route_retention_mean": 0.9603090245833333,
+      "route_retention_std": 0.03196305485850499,
+      "new_edges_mean": 3.625,
+      "new_edges_std": 2.513505188642612,
+      "removed_edges_mean": 1.2916666666666667,
+      "removed_edges_std": 0.9344858955002417
+    },
+    {
+      "order": "晴れ→雨→曖昧",
+      "transition": "初期→1:晴れ追加後",
+      "trials": 24,
+      "route_retention_mean": 0.9172619162500001,
+      "route_retention_std": 0.06559612777651613,
+      "new_edges_mean": 7.041666666666667,
+      "new_edges_std": 3.529390488770295,
+      "removed_edges_mean": 2.125,
+      "removed_edges_std": 1.6661457519276837
+    },
+    {
+      "order": "曖昧→晴れ→雨",
+      "transition": "1:曖昧追加後→2:晴れ追加後",
+      "trials": 24,
+      "route_retention_mean": 0.9605700016666666,
+      "route_retention_std": 0.03760834605716259,
+      "new_edges_mean": 4.916666666666667,
+      "new_edges_std": 3.1874319164842126,
+      "removed_edges_mean": 1.2083333333333333,
+      "removed_edges_std": 1.1539485353438526
+    },
+    {
+      "order": "曖昧→晴れ→雨",
+      "transition": "2:晴れ追加後→3:雨追加後",
+      "trials": 24,
+      "route_retention_mean": 0.9491144925,
+      "route_retention_std": 0.031391823088167695,
+      "new_edges_mean": 3.7083333333333335,
+      "new_edges_std": 2.8792239502260943,
+      "removed_edges_mean": 1.6666666666666667,
+      "removed_edges_std": 0.9428090415820634
+    },
+    {
+      "order": "曖昧→晴れ→雨",
+      "transition": "初期→1:曖昧追加後",
+      "trials": 24,
+      "route_retention_mean": 0.9165771312500001,
+      "route_retention_std": 0.056727850533482546,
+      "new_edges_mean": 8.208333333333334,
+      "new_edges_std": 3.904902545376631,
+      "removed_edges_mean": 2.125,
+      "removed_edges_std": 1.423390904378227
+    },
+    {
+      "order": "雨→晴れ→曖昧",
+      "transition": "1:雨追加後→2:晴れ追加後",
+      "trials": 24,
+      "route_retention_mean": 0.9642982866666667,
+      "route_retention_std": 0.04949151802810817,
+      "new_edges_mean": 4.666666666666667,
+      "new_edges_std": 2.8819360776317637,
+      "removed_edges_mean": 1.125,
+      "removed_edges_std": 1.423390904378227
+    },
+    {
+      "order": "雨→晴れ→曖昧",
+      "transition": "2:晴れ追加後→3:曖昧追加後",
+      "trials": 24,
+      "route_retention_mean": 0.9594153245833333,
+      "route_retention_std": 0.04305554698459081,
+      "new_edges_mean": 3.4583333333333335,
+      "new_edges_std": 2.7382958001079594,
+      "removed_edges_mean": 1.4166666666666667,
+      "removed_edges_std": 1.6811867501526678
+    },
+    {
+      "order": "雨→晴れ→曖昧",
+      "transition": "初期→1:雨追加後",
+      "trials": 24,
+      "route_retention_mean": 0.9260858695833333,
+      "route_retention_std": 0.06102496044421561,
+      "new_edges_mean": 8.208333333333334,
+      "new_edges_std": 4.663503392181557,
+      "removed_edges_mean": 1.875,
+      "removed_edges_std": 1.4807796369930717
+    }
+  ],
+  "final_summary": [
+    {
+      "order": "晴れ→雨→曖昧",
+      "probe": "晴れ未経験",
+      "trials": 6,
+      "sunny_affinity_mean": 0.27960201833333337,
+      "sunny_affinity_std": 0.0977021681910851,
+      "rainy_affinity_mean": 0.12230426833333334,
+      "rainy_affinity_std": 0.06399270928342395,
+      "margin_mean": 0.15729775166666668,
+      "margin_std": 0.1331439371402589,
+      "edge_count_mean": 35.166666666666664,
+      "edge_count_std": 3.8477987935383986
+    },
+    {
+      "order": "晴れ→雨→曖昧",
+      "probe": "曖昧天気",
+      "trials": 6,
+      "sunny_affinity_mean": 0.18341470666666668,
+      "sunny_affinity_std": 0.047411495484880266,
+      "rainy_affinity_mean": 0.20459936166666667,
+      "rainy_affinity_std": 0.026208925133676897,
+      "margin_mean": -0.021184656666666666,
+      "margin_std": 0.05976948169941626,
+      "edge_count_mean": 33.333333333333336,
+      "edge_count_std": 2.4267032964268394
+    },
+    {
+      "order": "晴れ→雨→曖昧",
+      "probe": "遠い対照",
+      "trials": 6,
+      "sunny_affinity_mean": 0.044991148333333335,
+      "sunny_affinity_std": 0.020937958108116637,
+      "rainy_affinity_mean": 0.040723405,
+      "rainy_affinity_std": 0.039810216035374116,
+      "margin_mean": 0.004267743333333333,
+      "margin_std": 0.036968538842620705,
+      "edge_count_mean": 24.333333333333332,
+      "edge_count_std": 4.749268949591669
+    },
+    {
+      "order": "晴れ→雨→曖昧",
+      "probe": "雨未経験",
+      "trials": 6,
+      "sunny_affinity_mean": 0.11097844499999998,
+      "sunny_affinity_std": 0.05446434110173026,
+      "rainy_affinity_mean": 0.27449756833333333,
+      "rainy_affinity_std": 0.04688212656995074,
+      "margin_mean": -0.16351912166666668,
+      "margin_std": 0.025939827002724607,
+      "edge_count_mean": 38.333333333333336,
+      "edge_count_std": 5.467073155618908
+    },
+    {
+      "order": "曖昧→晴れ→雨",
+      "probe": "晴れ未経験",
+      "trials": 6,
+      "sunny_affinity_mean": 0.28614796833333334,
+      "sunny_affinity_std": 0.11426809240356067,
+      "rainy_affinity_mean": 0.12513270166666668,
+      "rainy_affinity_std": 0.06945295329541584,
+      "margin_mean": 0.16101526833333335,
+      "margin_std": 0.14376434195501742,
+      "edge_count_mean": 35.0,
+      "edge_count_std": 3.9157800414902435
+    },
+    {
+      "order": "曖昧→晴れ→雨",
+      "probe": "曖昧天気",
+      "trials": 6,
+      "sunny_affinity_mean": 0.18442259833333333,
+      "sunny_affinity_std": 0.045712026139220895,
+      "rainy_affinity_mean": 0.20508065666666667,
+      "rainy_affinity_std": 0.021094823003209164,
+      "margin_mean": -0.020658056666666664,
+      "margin_std": 0.05552326031762805,
+      "edge_count_mean": 33.166666666666664,
+      "edge_count_std": 4.297932319409209
+    },
+    {
+      "order": "曖昧→晴れ→雨",
+      "probe": "遠い対照",
+      "trials": 6,
+      "sunny_affinity_mean": 0.039791251666666666,
+      "sunny_affinity_std": 0.02079805357425258,
+      "rainy_affinity_mean": 0.03841509666666667,
+      "rainy_affinity_std": 0.039395914084047544,
+      "margin_mean": 0.001376156666666668,
+      "margin_std": 0.029995158574431455,
+      "edge_count_mean": 23.833333333333332,
+      "edge_count_std": 5.112620550059322
+    },
+    {
+      "order": "曖昧→晴れ→雨",
+      "probe": "雨未経験",
+      "trials": 6,
+      "sunny_affinity_mean": 0.11896444666666667,
+      "sunny_affinity_std": 0.07017714634161697,
+      "rainy_affinity_mean": 0.2817453233333333,
+      "rainy_affinity_std": 0.05622243425363481,
+      "margin_mean": -0.16278088166666668,
+      "margin_std": 0.0384332877134572,
+      "edge_count_mean": 40.166666666666664,
+      "edge_count_std": 5.177408189003023
+    },
+    {
+      "order": "雨→晴れ→曖昧",
+      "probe": "晴れ未経験",
+      "trials": 6,
+      "sunny_affinity_mean": 0.2699605666666667,
+      "sunny_affinity_std": 0.10751993634122073,
+      "rainy_affinity_mean": 0.11916284833333333,
+      "rainy_affinity_std": 0.06113253268301867,
+      "margin_mean": 0.15079772500000002,
+      "margin_std": 0.1392960527857176,
+      "edge_count_mean": 34.666666666666664,
+      "edge_count_std": 3.72677996249965
+    },
+    {
+      "order": "雨→晴れ→曖昧",
+      "probe": "曖昧天気",
+      "trials": 6,
+      "sunny_affinity_mean": 0.18159298499999998,
+      "sunny_affinity_std": 0.04682967855087759,
+      "rainy_affinity_mean": 0.2075764516666667,
+      "rainy_affinity_std": 0.033210840735099535,
+      "margin_mean": -0.025983466666666667,
+      "margin_std": 0.06631971532854883,
+      "edge_count_mean": 34.333333333333336,
+      "edge_count_std": 2.748737083745107
+    },
+    {
+      "order": "雨→晴れ→曖昧",
+      "probe": "遠い対照",
+      "trials": 6,
+      "sunny_affinity_mean": 0.04077119666666667,
+      "sunny_affinity_std": 0.018728680142002057,
+      "rainy_affinity_mean": 0.042363235,
+      "rainy_affinity_std": 0.03790957291408498,
+      "margin_mean": -0.0015920350000000014,
+      "margin_std": 0.03200912005654105,
+      "edge_count_mean": 24.166666666666668,
+      "edge_count_std": 5.30461015427985
+    },
+    {
+      "order": "雨→晴れ→曖昧",
+      "probe": "雨未経験",
+      "trials": 6,
+      "sunny_affinity_mean": 0.11746978500000001,
+      "sunny_affinity_std": 0.051287055295067635,
+      "rainy_affinity_mean": 0.27244113000000003,
+      "rainy_affinity_std": 0.04397860432244297,
+      "margin_mean": -0.154971345,
+      "margin_std": 0.0364714326211533,
+      "edge_count_mean": 39.333333333333336,
+      "edge_count_std": 6.0736223860962
+    }
+  ],
+  "order_summary": [
+    {
+      "metric": "final_route_similarity",
+      "order_pair": "晴れ→雨→曖昧 vs 曖昧→晴れ→雨",
+      "k": 0,
+      "trials": 24,
+      "value_mean": 0.8952159625,
+      "value_std": 0.049570477485375325
+    },
+    {
+      "metric": "final_route_similarity",
+      "order_pair": "晴れ→雨→曖昧 vs 雨→晴れ→曖昧",
+      "k": 0,
+      "trials": 24,
+      "value_mean": 0.8786944066666665,
+      "value_std": 0.06422069148170736
+    },
+    {
+      "metric": "final_route_similarity",
+      "order_pair": "雨→晴れ→曖昧 vs 曖昧→晴れ→雨",
+      "k": 0,
+      "trials": 24,
+      "value_mean": 0.8554937245833333,
+      "value_std": 0.08535732238163954
+    }
+  ]
+}
