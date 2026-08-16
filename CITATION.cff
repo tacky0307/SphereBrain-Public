@@ -1,7 +1,11 @@
-﻿cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use or discuss SphereBrain, please cite the archived release."
 title: "SphereBrain: An Open Experimental Framework for Experience-Shaped Structural Intelligence"
 type: software
+version: "v1.0.0-phase1"
+date-released: "2026-08-16"
+doi: "10.5281/zenodo.21964627"
+url: "https://doi.org/10.5281/zenodo.21964627"
 authors:
   - family-names: "Kobayashi"
     given-names: "Takio"
