@@ -33,6 +33,8 @@ SphereBrain is being developed as an open research record. Successes, failures, 
 Start here:
 
 - [README_JA.md](README_JA.md) — Japanese introduction / 日本語版
+- [Natural Law Study — Phase I](docs/NATURAL_LAW_STUDY_PHASE_I.md) — experience-shaped dynamics in an artificial world
+- [Natural Law Study — Phase I 日本語版](docs/NATURAL_LAW_STUDY_PHASE_I_JA.md) — 経験によって形づくられる人工世界の動力学
 - [PHILOSOPHY.md](PHILOSOPHY.md) — research philosophy and current hypothesis
 - [ARCHITECTURE.md](ARCHITECTURE.md) — system boundaries and component roles
 - [RESEARCH_TIMELINE.md](RESEARCH_TIMELINE.md) — chronological research history
@@ -47,15 +49,15 @@ Start here:
 
 ## Current Research Direction — August 2026
 
-Recent experiments moved from direct semantic interpretation toward **label-blind structural observation**.
+Recent experiments moved from direct semantic interpretation toward **label-blind structural observation** and then toward an artificial natural-law model in which experience changes the material-like state of the Core.
+
+The current Natural Law Study asks whether Flow, Landscape deformation, finite structural resources, natural recovery, and local metaplastic consolidation can produce history-dependent behavior before human meaning is assigned. Phase I currently freezes this line through ID1R, including repeated maturation, lifetime differentiation, temporal-spacing effects, intervening-experience dependence, and limited experience-order imprinting. See the [Phase I report](docs/NATURAL_LAW_STUDY_PHASE_I.md).
 
 Earlier experiments used human semantic categories to create controlled conditions and inspect Core behavior. These experiments produced useful findings about bridge formation, stability, consensus persistence, ablation, and rescue. They also revealed an important limitation: human semantic labels can easily become confused with the Core's own internal organization.
 
 The current direction therefore asks a more fundamental question:
 
 > If a large stream of experiences is presented to the Core, will reusable internal organization emerge before humans assign meaning to it?
-
-The v98 experiment, **Emergent Structural Meaning Microscope**, is the first explicit step in this direction. Human semantic labels are withheld from structure discovery and are used only afterward for interpretation.
 
 ## Research Principles
 
