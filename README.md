@@ -108,4 +108,10 @@ Licensed under the [Apache License 2.0](LICENSE).
 
 ## Citation / Historical Record
 
-Until a formal DOI archive is published, the Git commit history and versioned experiment files are the primary public chronology of the project. Important milestones should be preserved as immutable releases and mirrored to an archival service such as Zenodo or OSF.
+**Natural Law Study — Phase I** is archived on Zenodo as version `v1.0.0-phase1`.
+
+- DOI: [10.5281/zenodo.21964627](https://doi.org/10.5281/zenodo.21964627)
+- GitHub release: [`v1.0.0-phase1`](https://github.com/tacky0307/SphereBrain-Public/releases/tag/v1.0.0-phase1)
+- Publication date: 2026-08-16
+
+Please cite the archived Zenodo release when referring to this Phase I milestone. Git commit history and versioned experiment files remain the primary detailed chronology of the ongoing project.
