@@ -156,7 +156,7 @@ class SphereBrainCore:
     core_version = CORE_VERSION
 
     def __init__(self, node_count: int = 160, neighbors_per_node: int = 7, seed: int = 42, learning_rate: float = 0.07, decay_rate: float = 0.0008, short_term_capacity: int = 24) -> None:
-        self.node_count=node_count; self.neighbors_per_node=neighbors_per_node; self.seed=seed; self.learning_rate=learning_rate; self.decay_rate=decay_rate
+        self.node_count=node_count; self.neighbors_per_node=neighbors_per_node; self.seed=seed; self.learning_rate=learning_rate; self.decay_rate=decay_rate; self.short_term_capacity=int(short_term_capacity)
         self.rng=np.random.default_rng(seed)
         directions=self.rng.normal(size=(node_count,3)); directions/=np.linalg.norm(directions,axis=1,keepdims=True); radii=self.rng.random(node_count)**(1/3); self.positions=directions*radii[:,None]
         diff=self.positions[:,None,:]-self.positions[None,:,:]; dist=np.linalg.norm(diff,axis=2); np.fill_diagonal(dist,np.inf)
@@ -166,9 +166,11 @@ class SphereBrainCore:
                 a,b=sorted((i,int(j))); self.adjacency[a,b]=self.adjacency[b,a]=True
                 if self.weights[a,b]==0:
                     w=min(.92,.22+.42*np.exp(-2*dist[a,b])+float(self.rng.uniform(0,.07))); self.weights[a,b]=self.weights[b,a]=w
-        self.short_term=deque(maxlen=short_term_capacity); self.transition_trace=np.zeros(node_count*node_count); self.relational_memory=RelationalMemory(node_count*node_count); self.reliability:list[ReliabilityState]=[]; self.experience_count=0
+        self.short_term=deque(maxlen=self.short_term_capacity); self.transition_trace=np.zeros(node_count*node_count); self.relational_memory=RelationalMemory(node_count*node_count); self.reliability:list[ReliabilityState]=[]; self.experience_count=0
 
     def text_to_sources(self,text:str,count:int=2)->list[int]:
+        if count < 0 or count > self.node_count:
+            raise ValueError(f"count must be between 0 and node_count ({self.node_count})")
         digest=hashlib.sha256(text.encode()).digest(); out=[]; p=0
         while len(out)<count:
             if p+4>len(digest): digest=hashlib.sha256(digest).digest(); p=0
@@ -240,8 +242,8 @@ class SphereBrainCore:
         return {"cluster_count":len(self.relational_memory.clusters),"plasticity_scale":float(scale),"mature_clusters":[s.mature for s in self.reliability]}
 
     def save(self,path:str|Path)->None:
-        data={"core_version":self.core_version,"node_count":self.node_count,"neighbors_per_node":self.neighbors_per_node,"seed":self.seed,"learning_rate":self.learning_rate,"decay_rate":self.decay_rate,"positions":self.positions.tolist(),"adjacency":self.adjacency.astype(int).tolist(),"weights":self.weights.tolist(),"usage":self.usage.tolist(),"node_usage":self.node_usage.tolist(),"short_term":list(self.short_term),"transition_trace":self.transition_trace.tolist(),"reliability":[asdict(x) for x in self.reliability],"experience_count":self.experience_count,"relational_memory":self.relational_memory.state_dict()}; Path(path).write_text(json.dumps(data),encoding="utf-8")
+        data={"core_version":self.core_version,"node_count":self.node_count,"neighbors_per_node":self.neighbors_per_node,"seed":self.seed,"learning_rate":self.learning_rate,"decay_rate":self.decay_rate,"short_term_capacity":self.short_term_capacity,"positions":self.positions.tolist(),"adjacency":self.adjacency.astype(int).tolist(),"weights":self.weights.tolist(),"usage":self.usage.tolist(),"node_usage":self.node_usage.tolist(),"short_term":list(self.short_term),"transition_trace":self.transition_trace.tolist(),"reliability":[asdict(x) for x in self.reliability],"experience_count":self.experience_count,"relational_memory":self.relational_memory.state_dict()}; Path(path).write_text(json.dumps(data),encoding="utf-8")
 
     @classmethod
     def load(cls,path:str|Path)->"SphereBrainCore":
-        d=json.loads(Path(path).read_text()); c=cls(d["node_count"],d["neighbors_per_node"],d["seed"],d["learning_rate"],d["decay_rate"]); c.positions=np.asarray(d["positions"]); c.adjacency=np.asarray(d["adjacency"],dtype=bool); c.weights=np.asarray(d["weights"]); c.usage=np.asarray(d["usage"],dtype=int); c.node_usage=np.asarray(d["node_usage"],dtype=int); c.short_term=deque(d["short_term"],maxlen=24); c.transition_trace=np.asarray(d["transition_trace"]); c.reliability=[ReliabilityState(**x) for x in d["reliability"]]; c.experience_count=int(d["experience_count"]); c.relational_memory.load_state_dict(d["relational_memory"]); return c
+        d=json.loads(Path(path).read_text()); capacity=int(d.get("short_term_capacity",24)); c=cls(d["node_count"],d["neighbors_per_node"],d["seed"],d["learning_rate"],d["decay_rate"],capacity); c.positions=np.asarray(d["positions"]); c.adjacency=np.asarray(d["adjacency"],dtype=bool); c.weights=np.asarray(d["weights"]); c.usage=np.asarray(d["usage"],dtype=int); c.node_usage=np.asarray(d["node_usage"],dtype=int); c.short_term=deque(d["short_term"],maxlen=capacity); c.transition_trace=np.asarray(d["transition_trace"]); c.reliability=[ReliabilityState(**x) for x in d["reliability"]]; c.experience_count=int(d["experience_count"]); c.relational_memory.load_state_dict(d["relational_memory"]); return c
