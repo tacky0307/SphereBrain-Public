@@ -150,3 +150,26 @@ EncoderとDecoderには言語を扱うAIを利用できます。しかし、研�
 ## 参加について
 
 再現、批判、反証、別解釈、比較実験、脳科学上の指摘を歓迎します。参加方法は[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
+
+## 引用・公開記録
+
+### Unified Experience Core v2.0
+
+**Unified Experience Core v2.0** はZenodoに `v2.0.0-unified-core` として保存されています。
+
+- バージョン固有DOI: [10.5281/zenodo.22048511](https://doi.org/10.5281/zenodo.22048511)
+- SphereBrain全バージョン共通Concept DOI: [10.5281/zenodo.21898610](https://doi.org/10.5281/zenodo.21898610)
+- GitHub Release: [`v2.0.0-unified-core`](https://github.com/tacky0307/SphereBrain-Public/releases/tag/v2.0.0-unified-core)
+- 公開日: 2026-08-21
+
+Unified Experience Core v2.0そのものを参照する場合は**バージョン固有DOI**を使用してください。SphereBrain全体をバージョン横断で参照し、Zenodo上の最新記録へ解決させたい場合は**Concept DOI**を使用できます。
+
+### Natural Law Study — Phase I
+
+**Natural Law Study — Phase I** はZenodoに `v1.0.0-phase1` として保存されています。
+
+- DOI: [10.5281/zenodo.21964627](https://doi.org/10.5281/zenodo.21964627)
+- GitHub Release: [`v1.0.0-phase1`](https://github.com/tacky0307/SphereBrain-Public/releases/tag/v1.0.0-phase1)
+- 公開日: 2026-08-16
+
+Phase Iを個別に参照する場合は、このZenodo DOIを使用してください。Git履歴と各実験ファイルは、継続中の研究史の詳細記録として残しています。
