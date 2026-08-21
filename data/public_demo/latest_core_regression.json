@@ -1,0 +1,29 @@
+{
+  "study": "SphereBrain Latest Core Regression",
+  "core_version": "2.0",
+  "checks": {
+    "readonly_scoring_does_not_learn": true,
+    "long_term_structural_weight_memory": true,
+    "long_term_structural_usage_memory": true,
+    "bounded_short_term_memory": true,
+    "online_directed_transition_trace": true,
+    "relational_memory_present": true,
+    "cross_timescale_identity_continuity_enabled": true,
+    "maturity_reached": true,
+    "failure_reopens_plasticity": true,
+    "unified_save_load_persistence": true,
+    "task_answer_lookup_absent": true
+  },
+  "checks_passed": 11,
+  "checks_total": 11,
+  "all_checks_passed": true,
+  "status": {
+    "experience_count": 49,
+    "relation_cluster_count": 1,
+    "short_term_items": 24,
+    "transition_trace_norm": 1.5268795409119165,
+    "continuity_assignment_count": 2,
+    "continuity_fraction": 0.041666666666666664
+  },
+  "interpretation_boundary": "Passing this suite means promoted Core mechanisms coexist and persist. It does not establish held-out generalization, planning, prediction, or general intelligence."
+}

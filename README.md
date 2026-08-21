@@ -1,16 +1,107 @@
 # SphereBrain
 
-**SphereBrain** is an open experimental research project investigating whether intelligence can emerge from internal structures formed through experience.
-
-The central hypothesis is not that the Core must contain human-readable meanings, labels, or sentences. Language, images, sound, and other external information can be converted into numerical stimuli, while the Core changes through the activity that those experiences produce.
+**SphereBrain** is an open experimental research project investigating whether intelligence can be shaped by internal structures that change through experience.
 
 > **Intelligence may be an evolving structure of recognition shaped by experience.**
 
-SphereBrain therefore studies whether repeatedly experienced activity can form reusable paths, distributed support structures, persistent internal organization, and eventually structures that correspond to what humans later describe as meaning or concepts.
+The project does not assume that the Core must contain human-readable words, labels, or symbolic statements. External language, images, sound, sensor data, or other information may be converted into numerical stimulation, while the research target is the **Core itself**: a plastic internal network whose structure, temporal state, relational memory, and stability change through experience.
+
+## Current Milestone — Unified Experience Core v2.0
+
+The current public milestone consolidates mechanisms that were previously tested separately into one generic experience-driven Core.
+
+The public implementation is:
+
+- [`spherebrain_core_v2.py`](spherebrain_core_v2.py) — self-contained public research Core
+- [`run_public_minimal_demo.py`](run_public_minimal_demo.py) — small acquisition/reversal demonstration
+- [`docs/LATEST_CORE_RESEARCH_AUDIT.md`](docs/LATEST_CORE_RESEARCH_AUDIT.md) — what is promoted into Core and what remains experimental
+- [`data/public_demo/latest_core_regression.json`](data/public_demo/latest_core_regression.json) — integration/regression result
+- [`data/public_demo/latest_core_smoke_adaptation_v1.json`](data/public_demo/latest_core_smoke_adaptation_v1.json) — lightweight adaptation result
+
+### Mechanisms currently promoted into Core
+
+```text
+External stimulus
+      ↓
+Structural propagation / long-term structural memory
+      ↓
+Current activity
+      ├── bounded working state
+      └── online directed transition trace
+      ↓
+Experience signature
+      ↓
+Fast relational form + slow relational identity
+      ↓
+Soft relation membership
+      ↓
+Relation-conditioned distributed value
+      ↓
+Reliability / maturity / replasticity
+      ↓
+Updated structural + temporal + relational Core
+```
+
+The promoted mechanisms are:
+
+- experience-dependent structural weights and usage;
+- bounded short-term / working state;
+- online directed transition memory;
+- self-organizing relational separation;
+- cluster-conditioned distributed consequence value;
+- maturity-gated success plasticity;
+- failure-driven replasticity;
+- fast/slow relational identity continuity across structural drift;
+- unified save/load persistence.
+
+These are promoted as **research principles**, not universal mathematical laws. Exact constants and experimental coordinate systems remain open to revision.
+
+## What the current Core has demonstrated
+
+The canonical regression suite for the integrated Core passed **11 / 11 checks**, including structural memory, short-term state, transition trace, relational memory, identity continuity, maturity, replasticity, persistence, read-only scoring, and the absence of a task-answer lookup table.
+
+A lightweight two-state sensorimotor smoke test then showed:
+
+```text
+Initial accuracy                         50%
+After acquisition                      100%
+Accuracy on reversed rule before shift   0%
+After reversal training                100%
+Old rule after reversal                  0%
+```
+
+The reversal reached 100% by the 80-trial checkpoint and remained correct through the end of the 200-trial reversal phase in that smoke test.
+
+This supports a narrow claim: the current Core can acquire and revise a tiny experience-dependent sensorimotor mapping while its promoted memory mechanisms remain active.
+
+## What is NOT established
+
+The current public Core does **not** establish:
+
+- general intelligence;
+- human-like understanding;
+- solved held-out compositional generalization;
+- autonomous planning;
+- autonomous next-state prediction / predictive free-run;
+- a universal semantic representation;
+- a universal biological model of the brain.
+
+In particular, held-out relational generalization remains an open research boundary. The project explicitly preserves negative results and unresolved mechanisms rather than presenting them as solved capabilities.
+
+## Run the minimal demo
+
+Python 3.10+ is recommended.
+
+```bash
+python -m pip install -r requirements-core-v2.txt
+python run_public_minimal_demo.py
+```
+
+The demo provides only states, candidate actions, and scalar success/failure. The Core owns structural learning, working state, transition trace, relational memory, maturity, and replasticity.
 
 ## Architecture
 
-The working direction is:
+The broader working direction remains:
 
 ```text
 External experience
@@ -22,78 +113,37 @@ SphereBrain Core
 Decoder / expression interface
 ```
 
-The Encoder and Decoder may use language-aware systems. The research target is the **Core**: an internal network whose structure changes through experience.
-
-The Core is not intended to store statements such as `dog = animal` as explicit symbolic knowledge. Instead, the project asks whether many different experiences can gradually create internal structures that are reused, differentiated, connected, and stabilized.
+The Encoder and Decoder may use language-aware systems. The Core is intentionally not defined as a store of explicit symbolic statements such as `dog = animal`. The research question is whether reusable internal organization can form through repeated experience and later support recognition, adaptation, transfer, or prediction.
 
 ## Open Research Archive
 
-SphereBrain is being developed as an open research record. Successes, failures, negative results, abandoned hypotheses, and experimental code are all part of the research history.
+SphereBrain is maintained as an open research record. Successes, failures, negative results, abandoned hypotheses, and experimental code are part of the history.
 
 Start here:
 
 - [README_JA.md](README_JA.md) — Japanese introduction / 日本語版
-- [Natural Law Study — Phase I](docs/NATURAL_LAW_STUDY_PHASE_I.md) — experience-shaped dynamics in an artificial world
-- [Natural Law Study — Phase I 日本語版](docs/NATURAL_LAW_STUDY_PHASE_I_JA.md) — 経験によって形づくられる人工世界の動力学
-- [PHILOSOPHY.md](PHILOSOPHY.md) — research philosophy and current hypothesis
-- [ARCHITECTURE.md](ARCHITECTURE.md) — system boundaries and component roles
-- [RESEARCH_TIMELINE.md](RESEARCH_TIMELINE.md) — chronological research history
-- [EXPERIMENT_INDEX.md](EXPERIMENT_INDEX.md) — experiment map and major findings
-- [EXPERIMENT_AUDIT.md](EXPERIMENT_AUDIT.md) — evidence status of representative experiments
-- [FILE_AND_RIGHTS_AUDIT.md](FILE_AND_RIGHTS_AUDIT.md) — publication safety, file-size, and provenance audit
-- [LIMITATIONS.md](LIMITATIONS.md) — unresolved questions and claim boundaries
-- [REPRODUCE.md](REPRODUCE.md) — how to reproduce experiments
-- [OPEN_RESEARCH_POLICY.md](OPEN_RESEARCH_POLICY.md) — preservation and publication policy
-- [CONTRIBUTING.md](CONTRIBUTING.md) — reproduction, criticism, and contribution guidance
-- [AI_CONTRIBUTION.md](AI_CONTRIBUTION.md) — disclosure of human and AI roles
-
-## Current Research Direction — August 2026
-
-Recent experiments moved from direct semantic interpretation toward **label-blind structural observation** and then toward an artificial natural-law model in which experience changes the material-like state of the Core.
-
-The current Natural Law Study asks whether Flow, Landscape deformation, finite structural resources, natural recovery, and local metaplastic consolidation can produce history-dependent behavior before human meaning is assigned. Phase I currently freezes this line through ID1R, including repeated maturation, lifetime differentiation, temporal-spacing effects, intervening-experience dependence, and limited experience-order imprinting. See the [Phase I report](docs/NATURAL_LAW_STUDY_PHASE_I.md).
-
-Earlier experiments used human semantic categories to create controlled conditions and inspect Core behavior. These experiments produced useful findings about bridge formation, stability, consensus persistence, ablation, and rescue. They also revealed an important limitation: human semantic labels can easily become confused with the Core's own internal organization.
-
-The current direction therefore asks a more fundamental question:
-
-> If a large stream of experiences is presented to the Core, will reusable internal organization emerge before humans assign meaning to it?
+- [Natural Law Study — Phase I](docs/NATURAL_LAW_STUDY_PHASE_I.md)
+- [Natural Law Study — Phase I 日本語版](docs/NATURAL_LAW_STUDY_PHASE_I_JA.md)
+- [PHILOSOPHY.md](PHILOSOPHY.md)
+- [ARCHITECTURE.md](ARCHITECTURE.md)
+- [RESEARCH_TIMELINE.md](RESEARCH_TIMELINE.md)
+- [EXPERIMENT_INDEX.md](EXPERIMENT_INDEX.md)
+- [EXPERIMENT_AUDIT.md](EXPERIMENT_AUDIT.md)
+- [LIMITATIONS.md](LIMITATIONS.md)
+- [REPRODUCE.md](REPRODUCE.md)
+- [OPEN_RESEARCH_POLICY.md](OPEN_RESEARCH_POLICY.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [AI_CONTRIBUTION.md](AI_CONTRIBUTION.md)
 
 ## Research Principles
 
 1. **Experience before explanation.** Internal structure should be formed by experience, not by injecting the desired answer into the Core.
 2. **Core structure before human labels.** Human-readable meaning is an interpretation layer, not assumed to exist inside the Core.
-3. **Negative results are results.** Failed hypotheses remain in the repository and research history.
-4. **Observation and intervention are separated.** A microscope should not silently change the system it measures.
-5. **Reproducibility matters more than a persuasive story.** Experiments should preserve seeds, runners, outputs, and code history wherever practical.
-6. **Claims remain proportional to evidence.** A PASS in one experiment validates only the tested condition; it does not establish general intelligence or human-like understanding.
-
-## Historical Prototype Features
-
-The project began with a spherical network prototype exploring:
-
-- 3D spherical network structure
-- persistent graph state
-- path reinforcement
-- continuous activity
-- path-based memory
-- replay / forgetting / consolidation ideas
-- language, audio, and multimodal input experiments
-
-These earlier stages remain part of the project history rather than being replaced by the current interpretation.
-
-## Repository Status
-
-The active experimental line is maintained through versioned experiment runners such as:
-
-```text
-experiments/run_core_growth_binding_vXX.py
-run_core_growth_binding_vXX.bat
-```
-
-Experiment results are written under corresponding `data/core_growth_binding_vXX/` directories when the runner is executed locally.
-
-The production `data/brain.json` is intentionally protected in microscope experiments unless an experiment explicitly states otherwise.
+3. **Negative results are results.** Failed hypotheses remain part of the research history.
+4. **Observation and intervention are separated.** Measurement should not silently change the system being measured.
+5. **Reproducibility matters more than a persuasive story.** Seeds, runners, outputs, and code history are preserved wherever practical.
+6. **Claims remain proportional to evidence.** A successful experiment validates only its tested conditions.
+7. **Validated principles are promoted into one evolving Core.** New experimental mechanisms remain outside the canonical Core until enough evidence supports promotion.
 
 ## Research leadership
 
@@ -114,4 +164,4 @@ Licensed under the [Apache License 2.0](LICENSE).
 - GitHub release: [`v1.0.0-phase1`](https://github.com/tacky0307/SphereBrain-Public/releases/tag/v1.0.0-phase1)
 - Publication date: 2026-08-16
 
-Please cite the archived Zenodo release when referring to this Phase I milestone. Git commit history and versioned experiment files remain the primary detailed chronology of the ongoing project.
+Please cite the archived Zenodo release when referring specifically to the Phase I milestone. Git history and versioned experiment files remain the detailed chronology of the ongoing project.
