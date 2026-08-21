@@ -158,10 +158,23 @@ Licensed under the [Apache License 2.0](LICENSE).
 
 ## Citation / Historical Record
 
+### Unified Experience Core v2.0
+
+**Unified Experience Core v2.0** is archived on Zenodo as version `v2.0.0-unified-core`.
+
+- Version DOI: [10.5281/zenodo.22048511](https://doi.org/10.5281/zenodo.22048511)
+- Concept DOI for all SphereBrain versions: [10.5281/zenodo.21898610](https://doi.org/10.5281/zenodo.21898610)
+- GitHub release: [`v2.0.0-unified-core`](https://github.com/tacky0307/SphereBrain-Public/releases/tag/v2.0.0-unified-core)
+- Publication date: 2026-08-21
+
+Please cite the **Version DOI** when referring specifically to the Unified Experience Core v2.0 milestone. Use the **Concept DOI** when referring to SphereBrain across versions and you want the citation to resolve to the latest Zenodo record.
+
+### Natural Law Study — Phase I
+
 **Natural Law Study — Phase I** is archived on Zenodo as version `v1.0.0-phase1`.
 
 - DOI: [10.5281/zenodo.21964627](https://doi.org/10.5281/zenodo.21964627)
 - GitHub release: [`v1.0.0-phase1`](https://github.com/tacky0307/SphereBrain-Public/releases/tag/v1.0.0-phase1)
 - Publication date: 2026-08-16
 
-Please cite the archived Zenodo release when referring specifically to the Phase I milestone. Git history and versioned experiment files remain the detailed chronology of the ongoing project.
+Please cite the archived Phase I Zenodo release when referring specifically to that milestone. Git history and versioned experiment files remain the detailed chronology of the ongoing project.
