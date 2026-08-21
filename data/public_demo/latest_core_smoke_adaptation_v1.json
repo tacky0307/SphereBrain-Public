@@ -1,0 +1,52 @@
+{
+  "study": "Latest Core Smoke Adaptation v1",
+  "purpose": "Lightweight pre-publication capability smoke test",
+  "core_version": "2.0",
+  "design": {
+    "states": ["S0", "S1"],
+    "actions": ["A0", "A1"],
+    "acquisition_rule": {"S0": "A0", "S1": "A1"},
+    "reversal_rule": {"S0": "A1", "S1": "A0"},
+    "acquisition_trials": 160,
+    "reversal_trials": 200,
+    "task_answer_lookup_in_core": false,
+    "environment_feedback": "scalar success/failure only",
+    "candidate_scoring_is_read_only": true,
+    "chosen_action_uses_core_experience_cycle": true
+  },
+  "initial_accuracy": 0.5,
+  "after_acquisition_old_rule_accuracy": 1.0,
+  "before_reversal_new_rule_accuracy": 0.0,
+  "after_reversal_new_rule_accuracy": 1.0,
+  "after_reversal_old_rule_accuracy": 0.0,
+  "reversal_curve": [
+    {"through_trial": 20, "accuracy": 0.0},
+    {"through_trial": 40, "accuracy": 0.0},
+    {"through_trial": 60, "accuracy": 0.5},
+    {"through_trial": 80, "accuracy": 1.0},
+    {"through_trial": 100, "accuracy": 1.0},
+    {"through_trial": 200, "accuracy": 1.0}
+  ],
+  "checks": {
+    "acquisition_learned": true,
+    "maturity_seen": true,
+    "reversal_learned": true,
+    "old_rule_released_after_reversal": true,
+    "failure_replasticity_observed": true,
+    "structural_memory_changed": true,
+    "save_load_preserves_reversed_behavior": true,
+    "latest_core_version_used": true
+  },
+  "checks_passed": 8,
+  "checks_total": 8,
+  "all_checks_passed": true,
+  "core_status": {
+    "experience_count": 360,
+    "relation_cluster_count": 3,
+    "short_term_items": 24,
+    "transition_trace_norm": 1.1772337553317371,
+    "continuity_assignment_count": 8,
+    "continuity_fraction": 0.022408963585434174
+  },
+  "interpretation_boundary": "Passing this smoke test shows the current Core can acquire and reverse a tiny two-state sensorimotor mapping while promoted memory mechanisms remain active. It is not a held-out generalization, planning, or general-intelligence claim."
+}
