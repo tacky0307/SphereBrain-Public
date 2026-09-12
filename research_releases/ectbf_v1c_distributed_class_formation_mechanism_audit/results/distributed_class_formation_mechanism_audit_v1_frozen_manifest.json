@@ -1,0 +1,74 @@
+{
+  "ancestry": {
+    "branch": "experiment/distributed-temporal-boundary-equivalence-v1",
+    "completion_receipt_sha256": "51f921828929fed2feafdb208c695841f9c1a9113c3e6f3db9dd22db1c242e7c",
+    "formal_summary_sha256": "b4b95a03fa5b7aac806c6319ee5dedc4392e91186e3836569826d33ca24fd260"
+  },
+  "development_audit_sha256": "a76f65837dbceb4aa70d3189d50318ce0b002588ba28c0996069c5a123884dae",
+  "development_case_count": 30,
+  "development_family_seeds": [
+    121119,
+    122129,
+    123137
+  ],
+  "development_result_sha256": "8d1ba1608d1faaab9688bed058511d698f62fc2ae34988007901ec124bfafde9",
+  "formal_holdout_case_count": 60,
+  "freeze_request_commit": "74371b5020d9216e715757d954c15f9fee349681",
+  "freeze_state": "FROZEN_BEFORE_FIRST_SCIENTIFIC_HOLDOUT",
+  "frozen_at_utc": "2026-09-12T06:59:09+00:00",
+  "holdout_family_seeds": [
+    131121,
+    132143,
+    133151,
+    134153,
+    135177,
+    136181
+  ],
+  "holdout_result_seen": false,
+  "numpy_version": "2.5.3",
+  "python_version": "3.12.14",
+  "query_count": 5,
+  "source_manifest_members": {
+    "distributed_class_formation_mechanism_audit_config_v1.py": "7fff82ffc251937c9f622756f321b6ac23b2b262d0e24708e2abbcf3e2766980",
+    "distributed_class_formation_mechanism_audit_v1.py": "64d478d0586b5113d5ad6942a730ca6def658a180e3616cc93a7ed3ccd2aed2d",
+    "distributed_temporal_boundary_equivalence_config_v1.py": "9d249df203dc8add7d87432bfcbe6166a5d7d87a3ef83154cb265d40ddede5e7",
+    "distributed_temporal_boundary_equivalence_v1.py": "c367a346bb257117ba5be97d517208f832fe871af6435d68e6ecb5d60677f51b",
+    "endogenous_temporal_consequence_boundary_formation_config_v1.py": "f3a6dd4f09fef66bc3b29086813fe194d0cab3f9be25f8ca1c29a45ec49556f1",
+    "endogenous_temporal_consequence_boundary_formation_v1.py": "b1342255ebb54b513043fe222a7c3958210ba64a997b2611d636095834c779da",
+    "research/frozen/DISTRIBUTED_CLASS_FORMATION_MECHANISM_AUDIT_V1_THRESHOLDS.json": "0777ed2f51b32af055d9683fb1fc22045c2add8977c9ce09ec1cede3d9dce7a8",
+    "research/protocols/distributed_class_formation_mechanism_audit_v1.md": "6ab31ceabff7bdb68d7452b1ee1e230a780d24117db3a9c87ae880c2d6be7bf9",
+    "results/distributed_temporal_boundary_equivalence_v1_completion_receipt.json": "51f921828929fed2feafdb208c695841f9c1a9113c3e6f3db9dd22db1c242e7c",
+    "results/distributed_temporal_boundary_equivalence_v1_formal_summary.json": "b4b95a03fa5b7aac806c6319ee5dedc4392e91186e3836569826d33ca24fd260",
+    "run_distributed_class_formation_mechanism_audit_v1.py": "2d2718328cb64dfd164014872e8abdeeb35b84ca2cab54bfdd7e195fc8113f3a"
+  },
+  "source_manifest_sha256": "273e4df7281288b61fc6e711a6f246f8fafef97c65ce9c87e5266d7db471a268",
+  "study": "ECTBF v1C — Distributed Class Formation Mechanism Audit / Does the Consequence Field Depend on Cooperative Covariance Rather Than Interchangeable Members?",
+  "suite_names": [
+    "clean_continuous_stream",
+    "noisy_partial_continuous_stream"
+  ],
+  "threshold_declaration_sha256": "0777ed2f51b32af055d9683fb1fc22045c2add8977c9ce09ec1cede3d9dce7a8",
+  "thresholds": {
+    "maximum_conditional_marginal_preservation_error": 1e-10,
+    "minimum_bootstrap_low_cooperative_over_destroyed": 0.01,
+    "minimum_bootstrap_low_cooperative_over_marginal": 0.075,
+    "minimum_bootstrap_low_full_over_conditional_shuffle": 0.005,
+    "minimum_bootstrap_low_full_over_diagonal": 0.0125,
+    "minimum_combined_complete_sequence": 0.78,
+    "minimum_cooperative_complete_sequence": 0.9,
+    "minimum_cooperative_formation_r2": 0.88,
+    "minimum_cooperative_relation_accuracy": 0.9,
+    "minimum_covariance_destruction_ratio": 0.7,
+    "minimum_field_ablation_sequence_gap": 0.75,
+    "minimum_full_relation_accuracy": 0.92,
+    "minimum_gain_full_over_smooth_null": 0.18,
+    "minimum_mean_gain_cooperative_over_destroyed": 0.018,
+    "minimum_mean_gain_cooperative_over_marginal": 0.1,
+    "minimum_mean_gain_full_over_conditional_shuffle": 0.0125,
+    "minimum_mean_gain_full_over_diagonal": 0.02,
+    "minimum_no_maintenance_sequence_gap": 0.38,
+    "minimum_positive_fraction_cooperative_over_destroyed": 0.8,
+    "minimum_positive_fraction_cooperative_over_marginal": 0.8,
+    "minimum_robust_cooperative_relation_accuracy": 0.8
+  }
+}

@@ -82,3 +82,13 @@ For Natural Law Study — Phase I, the canonical archived release is:
 Ongoing work may continue on later branches and releases. The Phase I archive must remain unchanged as the historical observation milestone.
 
 Negative results, failed hypotheses, abandoned directions, and unresolved questions remain part of the public research record.
+
+<!-- DCFMA_V1_STATUS_START -->
+## ECTBF v1C canonical research record — 2026-09-12
+
+The public repository includes the canonical frozen record for **ECTBF v1C — Distributed Class Formation Mechanism Audit**.
+
+Formal status: `DISTRIBUTED_CLASS_FORMATION_MECHANISM_AUDIT_V1__INCONCLUSIVE_COOPERATIVE_STRUCTURE`
+
+The result contains a strong cooperative-covariance signal but was **not promoted**, because not all preregistered formal criteria passed. Exact source, the complete formal artifact, audits, hashes, limitations, and provenance are stored under `research_releases/ectbf_v1c_distributed_class_formation_mechanism_audit/`.
+<!-- DCFMA_V1_STATUS_END -->

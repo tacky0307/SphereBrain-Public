@@ -1,0 +1,46 @@
+{
+  "calibration_basis": "declared_30_case_development_bank_only",
+  "development_audit_sha256": "a76f65837dbceb4aa70d3189d50318ce0b002588ba28c0996069c5a123884dae",
+  "development_case_count": 30,
+  "development_family_seeds": [
+    121119,
+    122129,
+    123137
+  ],
+  "development_result_sha256": "8d1ba1608d1faaab9688bed058511d698f62fc2ae34988007901ec124bfafde9",
+  "development_source_manifest_sha256": "1a971bc94ace08fa2a4724dc029a8d9617654d76e8e81c8908537e1185720861",
+  "freeze_state": "THRESHOLDS_DECLARED_BEFORE_FIRST_SCIENTIFIC_HOLDOUT",
+  "holdout_result_seen": false,
+  "reserved_holdout_family_seeds": [
+    131121,
+    132143,
+    133151,
+    134153,
+    135177,
+    136181
+  ],
+  "study": "ECTBF v1C — Distributed Class Formation Mechanism Audit / Does the Consequence Field Depend on Cooperative Covariance Rather Than Interchangeable Members?",
+  "thresholds": {
+    "maximum_conditional_marginal_preservation_error": 1e-10,
+    "minimum_bootstrap_low_cooperative_over_destroyed": 0.01,
+    "minimum_bootstrap_low_cooperative_over_marginal": 0.075,
+    "minimum_bootstrap_low_full_over_conditional_shuffle": 0.005,
+    "minimum_bootstrap_low_full_over_diagonal": 0.0125,
+    "minimum_combined_complete_sequence": 0.78,
+    "minimum_cooperative_complete_sequence": 0.9,
+    "minimum_cooperative_formation_r2": 0.88,
+    "minimum_cooperative_relation_accuracy": 0.9,
+    "minimum_covariance_destruction_ratio": 0.7,
+    "minimum_field_ablation_sequence_gap": 0.75,
+    "minimum_full_relation_accuracy": 0.92,
+    "minimum_gain_full_over_smooth_null": 0.18,
+    "minimum_mean_gain_cooperative_over_destroyed": 0.018,
+    "minimum_mean_gain_cooperative_over_marginal": 0.1,
+    "minimum_mean_gain_full_over_conditional_shuffle": 0.0125,
+    "minimum_mean_gain_full_over_diagonal": 0.02,
+    "minimum_no_maintenance_sequence_gap": 0.38,
+    "minimum_positive_fraction_cooperative_over_destroyed": 0.8,
+    "minimum_positive_fraction_cooperative_over_marginal": 0.8,
+    "minimum_robust_cooperative_relation_accuracy": 0.8
+  }
+}

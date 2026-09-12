@@ -1,0 +1,147 @@
+{
+  "ancestry": {
+    "branch": "experiment/distributed-temporal-boundary-equivalence-v1",
+    "completion_receipt": {
+      "candidate_promoted": false,
+      "formal_result_sha256": "1b2400c7388de695b4f10bbd6f587cc39c3b5a831041b6d1cb03387548a6feb3",
+      "formal_status": "DISTRIBUTED_TEMPORAL_BOUNDARY_EQUIVALENCE_V1__NO_RELIABLE_CONSEQUENCE_EQUIVALENCE_STRUCTURE",
+      "path": "results/distributed_temporal_boundary_equivalence_v1_completion_receipt.json",
+      "pipeline_complete": true,
+      "sha256": "51f921828929fed2feafdb208c695841f9c1a9113c3e6f3db9dd22db1c242e7c"
+    },
+    "formal_summary": {
+      "candidate_promoted": false,
+      "formal_result_sha256": "1b2400c7388de695b4f10bbd6f587cc39c3b5a831041b6d1cb03387548a6feb3",
+      "formal_status": "DISTRIBUTED_TEMPORAL_BOUNDARY_EQUIVALENCE_V1__NO_RELIABLE_CONSEQUENCE_EQUIVALENCE_STRUCTURE",
+      "path": "results/distributed_temporal_boundary_equivalence_v1_formal_summary.json",
+      "sha256": "b4b95a03fa5b7aac806c6319ee5dedc4392e91186e3836569826d33ca24fd260"
+    }
+  },
+  "candidate_promoted": false,
+  "case_count": 60,
+  "causal_metrics": {
+    "field_ablation_sequence_gap": 0.8371527777777777,
+    "mean_gain_full_over_smooth_null": 0.5388541666666666,
+    "minimum_gain_full_over_smooth_null": 0.2875,
+    "no_maintenance_sequence_gap": 0.44097222222222243
+  },
+  "compact_audit_all_pass": true,
+  "formal_audit_sha256": "d41ebb87a554786a5fa90ce892fdefa576e605f1a2e3a8b60ab7f269a3ee86df",
+  "formal_decision": {
+    "all_audits_pass": true,
+    "audit_checks": {
+      "conditional_marginals_preserved": true,
+      "control_identity": true,
+      "feedback_delayed": true,
+      "fields_nonzero": true,
+      "held_query_updates_zero": true,
+      "information_boundary": true,
+      "initial_fields_zero": true,
+      "snapshot_forbidden_zero": true,
+      "snapshot_roundtrip": true,
+      "subset_sizes_equal": true
+    },
+    "candidate_promoted": false,
+    "causal_checks": {
+      "field_ablation_sequence_gap": true,
+      "full_over_smooth_null": true,
+      "no_maintenance_sequence_gap": true
+    },
+    "causal_pass": true,
+    "cooperative_checks": {
+      "bootstrap_cooperative_over_destroyed": true,
+      "bootstrap_cooperative_over_marginal": true,
+      "bootstrap_full_over_conditional_shuffle": true,
+      "bootstrap_full_over_diagonal": true,
+      "cooperative_formation_r2": true,
+      "covariance_destroyed": true,
+      "mean_cooperative_over_destroyed": true,
+      "mean_cooperative_over_marginal": true,
+      "mean_full_over_conditional_shuffle": true,
+      "mean_full_over_diagonal": true,
+      "positive_fraction_cooperative_over_destroyed": false,
+      "positive_fraction_cooperative_over_marginal": true
+    },
+    "cooperative_pass": false,
+    "functional_checks": {
+      "minimum_combined_complete_sequence": true,
+      "minimum_cooperative_complete_sequence": true,
+      "minimum_cooperative_relation_accuracy": false,
+      "minimum_full_relation_accuracy": false,
+      "minimum_robust_cooperative_relation_accuracy": true
+    },
+    "functional_pass": false,
+    "status": "DISTRIBUTED_CLASS_FORMATION_MECHANISM_AUDIT_V1__INCONCLUSIVE_COOPERATIVE_STRUCTURE"
+  },
+  "formal_result_sha256": "4dc41edd1eaaa91fb352319d4a1158ebe49b3cd9a292c2bff3f78baec5540ba3",
+  "formal_status": "DISTRIBUTED_CLASS_FORMATION_MECHANISM_AUDIT_V1__INCONCLUSIVE_COOPERATIVE_STRUCTURE",
+  "frozen_source_manifest_sha256": "273e4df7281288b61fc6e711a6f246f8fafef97c65ce9c87e5266d7db471a268",
+  "mechanism_metrics": {
+    "all_feedback_delayed": true,
+    "all_fields_nonzero_except_ablation": true,
+    "all_held_query_updates_zero": true,
+    "all_initial_fields_zero": true,
+    "all_snapshot_roundtrips_exact": true,
+    "all_subset_sizes_equal": true,
+    "case_count": 60,
+    "maximum_conditional_marginal_preservation_error": 1.7763568394002505e-15,
+    "maximum_conditional_target_alignment_error": 3.979039320256561e-13,
+    "maximum_marginal_full_score_r2": 0.8379117449412552,
+    "maximum_snapshot_forbidden_token_count": 0,
+    "mean_covariance_destruction_ratio": 0.8326843519053709,
+    "mean_query_transfer_accuracy": 0.8879947916666667,
+    "minimum_cooperative_formation_r2": 0.929489522762023,
+    "minimum_cooperative_full_score_r2": 0.9054453537033198,
+    "minimum_covariance_destruction_ratio": 0.7705817164150437,
+    "minimum_query_transfer_accuracy": 0.54375
+  },
+  "paired_mechanism_evidence": {
+    "cooperative_over_destroyed": {
+      "bootstrap_high": 0.03739843749999997,
+      "bootstrap_low": 0.021976562499999998,
+      "maximum": 0.10624999999999996,
+      "mean": 0.029583333333333343,
+      "minimum": -0.012499999999999956,
+      "nonnegative_fraction": 0.95,
+      "positive_fraction": 0.7833333333333333
+    },
+    "cooperative_over_marginal": {
+      "bootstrap_high": 0.16218749999999998,
+      "bootstrap_low": 0.11593750000000001,
+      "maximum": 0.375,
+      "mean": 0.13885416666666667,
+      "minimum": -0.012499999999999956,
+      "nonnegative_fraction": 0.9833333333333333,
+      "positive_fraction": 0.8666666666666667
+    },
+    "full_over_conditional_shuffle": {
+      "bootstrap_high": 0.030624999999999996,
+      "bootstrap_low": 0.01583333333333333,
+      "maximum": 0.09999999999999998,
+      "mean": 0.02302083333333333,
+      "minimum": -0.025000000000000022,
+      "nonnegative_fraction": 0.9,
+      "positive_fraction": 0.6833333333333333
+    },
+    "full_over_diagonal": {
+      "bootstrap_high": 0.03447916666666668,
+      "bootstrap_low": 0.020312500000000004,
+      "maximum": 0.10624999999999996,
+      "mean": 0.02718750000000001,
+      "minimum": -0.025000000000000022,
+      "nonnegative_fraction": 0.95,
+      "positive_fraction": 0.7833333333333333
+    }
+  },
+  "primary_metrics": {
+    "combined_complete_sequence": 0.8447916666666668,
+    "cooperative_complete_sequence": 0.9427083333333334,
+    "cooperative_relation_accuracy": 0.9791666666666666,
+    "full_relation_accuracy": 0.9876041666666667,
+    "marginal_relation_accuracy": 0.8403125000000001
+  },
+  "study": "ECTBF v1C \u2014 Distributed Class Formation Mechanism Audit / Does the Consequence Field Depend on Cooperative Covariance Rather Than Interchangeable Members?",
+  "supported_conclusion": "The frozen result determines whether preserving joint cross-member covariance improves unseen consequence decisions and finite plan continuation beyond cardinality-matched marginal members while individual conditional marginals remain fixed.",
+  "threshold_declaration_sha256": "0777ed2f51b32af055d9683fb1fc22045c2add8977c9ce09ec1cede3d9dce7a8",
+  "unsupported_conclusion": "This does not establish autonomous event invention, removal of the ordered-moment vocabulary, reward discovery, unrestricted planning, natural-language reasoning, consciousness, or real-world agency."
+}

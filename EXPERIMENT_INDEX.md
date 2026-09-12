@@ -142,3 +142,15 @@ A version marked PASS means that the runner's own predefined measurement contrac
 Likewise, a NO or failed signal is retained because it constrains the hypothesis and often motivates the next microscope experiment.
 
 The experiment history should therefore be read as a chain of progressively narrower questions rather than a sequence of demonstrations of success.
+
+<!-- DCFMA_V1_PUBLIC_RECORD_START -->
+## Continuous-stream consequence mechanism — ECTBF v1 to v1C
+
+| Study | Question | Canonical result |
+|---|---|---|
+| ECTBF v1 | Which moments should be compared? | plan continuation without formal temporal-boundary recovery |
+| ECTBF v1B | Are moment pairs interchangeable? | distributed redundancy, but no reliable equivalence structure |
+| **ECTBF v1C** | Does cooperative covariance explain the field? | **strong cooperative signal; formal result remained inconclusive and was not promoted** |
+
+ECTBF v1C passed its structural audit and showed positive mean and bootstrap evidence for cooperative covariance, but failed preregistered worst-case and positive-case criteria. See `research_releases/ectbf_v1c_distributed_class_formation_mechanism_audit/`.
+<!-- DCFMA_V1_PUBLIC_RECORD_END -->

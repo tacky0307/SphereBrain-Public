@@ -1,0 +1,14 @@
+{
+  "candidate_promoted": false,
+  "compact_audit_all_pass": true,
+  "formal_audit_sha256": "d41ebb87a554786a5fa90ce892fdefa576e605f1a2e3a8b60ab7f269a3ee86df",
+  "formal_case_count": 60,
+  "formal_result_sha256": "4dc41edd1eaaa91fb352319d4a1158ebe49b3cd9a292c2bff3f78baec5540ba3",
+  "formal_status": "DISTRIBUTED_CLASS_FORMATION_MECHANISM_AUDIT_V1__INCONCLUSIVE_COOPERATIVE_STRUCTURE",
+  "frozen_source_manifest_sha256": "273e4df7281288b61fc6e711a6f246f8fafef97c65ce9c87e5266d7db471a268",
+  "github_actions_run": "34679623465",
+  "public_claim": "strong cooperative signal; formal promotion not achieved",
+  "publication_mode": "canonical_frozen_inconclusive_research_record",
+  "study": "ECTBF v1C — Distributed Class Formation Mechanism Audit / Does the Consequence Field Depend on Cooperative Covariance Rather Than Interchangeable Members?",
+  "threshold_declaration_sha256": "0777ed2f51b32af055d9683fb1fc22045c2add8977c9ce09ec1cede3d9dce7a8"
+}

@@ -140,3 +140,9 @@ The current central question is:
 > **Can large streams of experience create persistent, reusable, internally organized structures before human semantic labels are used to define what those structures mean?**
 
 The next phase should prioritize structural observation, reproducibility, and larger mixed experience streams while keeping human semantic interpretation downstream of Core organization.
+
+<!-- DCFMA_V1_TIMELINE_START -->
+## Endogenous temporal consequence line — September 2026
+
+ECTBF v1 removed supplied before/after endpoints; ECTBF v1B rejected a simple interchangeable-member explanation; ECTBF v1C directly tested cooperative covariance. The v1C frozen holdout produced strong average and bootstrap evidence, but missed preregistered worst-case and positive-fraction requirements. The canonical result is preserved as **inconclusive cooperative structure**, not a promoted positive result.
+<!-- DCFMA_V1_TIMELINE_END -->
