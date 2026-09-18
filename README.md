@@ -190,3 +190,14 @@ Feature accumulation is intentionally paused while the next single research ques
 
 - [Checkpoint overview](research_releases/2026-09-18_experience_prediction_checkpoint/README.md)
 - [Japanese overview](research_releases/2026-09-18_experience_prediction_checkpoint/README_JA.md)
+
+
+### Experience-Grounded Prediction Research Checkpoint
+
+The **Experience-Grounded Prediction Research Checkpoint** is archived on Zenodo as version `v2.1.0-research-checkpoint`.
+
+- Version DOI: [10.5281/zenodo.22823640](https://doi.org/10.5281/zenodo.22823640)
+- GitHub release: [`v2.1.0-research-checkpoint`](https://github.com/tacky0307/SphereBrain-Public/releases/tag/v2.1.0-research-checkpoint)
+- Publication date: 2026-09-18
+
+This checkpoint records the Two Keys, Flip Learning Loop, and Route Readout v1–v3 research line. It preserves both the observed capabilities and the current attribution boundary: a distinctive advantage from native SphereBrain route dynamics has not yet been established.

@@ -109,3 +109,23 @@ The strongest positive observation is that unresolved alternatives can be preser
 
 Additional feature work is intentionally paused while the next question and stop/continue criterion are reconsidered.
 <!-- EXPERIENCE_PREDICTION_CHECKPOINT_20260918_END -->
+
+
+<!-- EXPERIENCE_PREDICTION_CHECKPOINT_ZENODO_START -->
+## Zenodo archive — Experience-Grounded Prediction Research Checkpoint
+
+The 2026-09-18 experience-grounded prediction checkpoint is archived on Zenodo.
+
+- Version: `v2.1.0-research-checkpoint`
+- DOI: https://doi.org/10.5281/zenodo.22823640
+- GitHub release: https://github.com/tacky0307/SphereBrain-Public/releases/tag/v2.1.0-research-checkpoint
+- Publication date: 2026-09-18
+- Resource type: Software
+- License: Apache License 2.0
+
+This archive corresponds to the public checkpoint under:
+
+`research_releases/2026-09-18_experience_prediction_checkpoint/`
+
+The archive preserves the checkpoint as a research record. It does not promote the experimental mechanisms into the canonical Core and does not establish a unique native SphereBrain route advantage.
+<!-- EXPERIENCE_PREDICTION_CHECKPOINT_ZENODO_END -->

@@ -185,3 +185,14 @@ Phase Iを個別に参照する場合は、このZenodo DOIを使用してくだ
 
 - [チェックポイント概要（日本語）](research_releases/2026-09-18_experience_prediction_checkpoint/README_JA.md)
 - [English overview](research_releases/2026-09-18_experience_prediction_checkpoint/README.md)
+
+
+### Experience-Grounded Prediction Research Checkpoint
+
+**Experience-Grounded Prediction Research Checkpoint** は、Zenodoに `v2.1.0-research-checkpoint` として保存されています。
+
+- バージョン固有DOI: [10.5281/zenodo.22823640](https://doi.org/10.5281/zenodo.22823640)
+- GitHub Release: [`v2.1.0-research-checkpoint`](https://github.com/tacky0307/SphereBrain-Public/releases/tag/v2.1.0-research-checkpoint)
+- 公開日: 2026-09-18
+
+このチェックポイントは、「2枚のカギ」、Flip Learning Loop、Route Readout v1〜v3までの研究系列を保存したものです。確認できた機能だけでなく、**SphereBrain固有のnative route dynamicsの優位性はまだ確立していない**という現在の帰属境界も含めて記録しています。
