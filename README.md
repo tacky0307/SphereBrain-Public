@@ -178,3 +178,15 @@ Please cite the **Version DOI** when referring specifically to the Unified Exper
 - Publication date: 2026-08-16
 
 Please cite the archived Phase I Zenodo release when referring specifically to that milestone. Git history and versioned experiment files remain the detailed chronology of the ongoing project.
+
+
+## Research checkpoint — Experience-grounded prediction (2026-09-18)
+
+A new public checkpoint records the human-readable puzzle / prediction line from **Two Keys** through **Flip Learning Loop** and **Route Readout v1–v3**.
+
+The line demonstrated experience-grounded prediction, known-pair native-route recall, restricted partial-structure reuse, and ambiguity-guided experience acquisition. The latest attribution controls also showed that ordinary experience storage with the same higher-level learning rule matched the route-based implementation. A distinctive native SphereBrain route advantage is therefore **not yet established**.
+
+Feature accumulation is intentionally paused while the next single research question and stop/continue criterion are reconsidered.
+
+- [Checkpoint overview](research_releases/2026-09-18_experience_prediction_checkpoint/README.md)
+- [Japanese overview](research_releases/2026-09-18_experience_prediction_checkpoint/README_JA.md)

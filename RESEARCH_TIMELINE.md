@@ -146,3 +146,24 @@ The next phase should prioritize structural observation, reproducibility, and la
 
 ECTBF v1 removed supplied before/after endpoints; ECTBF v1B rejected a simple interchangeable-member explanation; ECTBF v1C directly tested cooperative covariance. The v1C frozen holdout produced strong average and bootstrap evidence, but missed preregistered worst-case and positive-fraction requirements. The canonical result is preserved as **inconclusive cooperative structure**, not a promoted positive result.
 <!-- DCFMA_V1_TIMELINE_END -->
+
+
+<!-- EXPERIENCE_PREDICTION_CHECKPOINT_20260918_START -->
+## Human-readable puzzle observation and route-readout checkpoint — September 17–18, 2026
+
+The project shifted temporarily from adding abstract mechanisms to observing experience-shaped behavior in compact, human-readable environments.
+
+The **Two Keys** demonstration exposed retention, cross-task experience, resumption, and the cost of cautious retry gating: post-resumption failures fell from 6 to 0 in three development worlds, while total real trials rose from 53 to 91.
+
+The **Flip Learning Loop** separated real experience, prediction, action, and review. A fresh seed-42 v2 individual reached the target after 19 real actions and fully predicted its final one-step result, but that direct prediction came from designed conditional memory rather than established native route reasoning.
+
+**Route Readout v1** reproduced 19/19 experienced input/action pairs after training but did not provide admitted prequential predictions on the unseen whole-state/action inputs in the preserved sequence.
+
+**v2** achieved partial transfer in generated worlds using a new relevance-selection rule, while ordinary episodic storage with the same rule matched it. Twelve errors exposed premature simplification.
+
+**v3** retained unresolved alternatives, turned all twelve prior errors into abstentions, and used ambiguity to select discriminating experience. Ambiguity-guided acquisition beat a reproducible random-order control in final coverage in all ten new diagnostic environments, but ordinary storage with the same rule again matched the route system.
+
+Feature accumulation is deliberately paused here. The next research direction is not declared in this checkpoint.
+
+See research_releases/2026-09-18_experience_prediction_checkpoint/.
+<!-- EXPERIENCE_PREDICTION_CHECKPOINT_20260918_END -->

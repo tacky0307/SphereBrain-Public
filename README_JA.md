@@ -173,3 +173,15 @@ Unified Experience Core v2.0そのものを参照する場合は**バージョ�
 - 公開日: 2026-08-16
 
 Phase Iを個別に参照する場合は、このZenodo DOIを使用してください。Git履歴と各実験ファイルは、継続中の研究史の詳細記録として残しています。
+
+
+## 研究チェックポイント — 経験予測・パズル観察（2026-09-18）
+
+「2枚のカギ」から **Flip Learning Loop**、**Route Readout v1〜v3** までを、一度ここで公開チェックポイントとして区切りました。
+
+実経験に基づく予測、経験済みnative routeの読み出し、限定された部分構造の再利用、曖昧さを残した経験選択までを観察できました。一方、最新の対照では、同じ上位学習規則を使う普通の経験記録でも同じ予測・選択が得られ、**SphereBrain固有のnative route advantageはまだ確認できていません**。
+
+ここで機能追加はいったん止め、次の研究は「何を確かめれば続ける価値があるか」と停止条件を先に定めてから再開します。
+
+- [チェックポイント概要（日本語）](research_releases/2026-09-18_experience_prediction_checkpoint/README_JA.md)
+- [English overview](research_releases/2026-09-18_experience_prediction_checkpoint/README.md)

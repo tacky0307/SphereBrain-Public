@@ -92,3 +92,20 @@ Formal status: `DISTRIBUTED_CLASS_FORMATION_MECHANISM_AUDIT_V1__INCONCLUSIVE_COO
 
 The result contains a strong cooperative-covariance signal but was **not promoted**, because not all preregistered formal criteria passed. Exact source, the complete formal artifact, audits, hashes, limitations, and provenance are stored under `research_releases/ectbf_v1c_distributed_class_formation_mechanism_audit/`.
 <!-- DCFMA_V1_STATUS_END -->
+
+
+<!-- EXPERIENCE_PREDICTION_CHECKPOINT_20260918_START -->
+## Experience-grounded prediction checkpoint — 2026-09-18
+
+Public checkpoint added at:
+
+research_releases/2026-09-18_experience_prediction_checkpoint/
+
+It covers Progress-Gated Resumption / Two Keys, Flip Learning Loop v1–v2, Route Readout v1, reusable route-selection v2, and ambiguity-preserving route families v3.
+
+**Status:** research checkpoint only. No mechanism in this line is promoted into the canonical Core by this commit.
+
+The strongest positive observation is that unresolved alternatives can be preserved and used to choose discriminating experience under a restricted model class. The strongest attribution limitation is that ordinary experience storage using the same higher-level rule matched the route-based system in the latest controls. A distinctive native SphereBrain route advantage therefore remains unresolved.
+
+Additional feature work is intentionally paused while the next question and stop/continue criterion are reconsidered.
+<!-- EXPERIENCE_PREDICTION_CHECKPOINT_20260918_END -->

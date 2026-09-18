@@ -154,3 +154,14 @@ The experiment history should therefore be read as a chain of progressively narr
 
 ECTBF v1C passed its structural audit and showed positive mean and bootstrap evidence for cooperative covariance, but failed preregistered worst-case and positive-case criteria. See `research_releases/ectbf_v1c_distributed_class_formation_mechanism_audit/`.
 <!-- DCFMA_V1_PUBLIC_RECORD_END -->
+
+
+<!-- EXPERIENCE_PREDICTION_CHECKPOINT_20260918_START -->
+## Experience-grounded prediction and puzzle observation checkpoint — September 18, 2026
+
+Public checkpoint: **Two Keys → Flip Learning Loop → Route Readout v1–v3**.
+
+The line demonstrated experience-grounded prediction, known-pair native-route association readout, restricted reusable partial structure, and ambiguity-preserving acquisition. The latest controls also found that ordinary experience storage using the same higher-level learning rule matched the route implementation. These mechanisms are therefore **not promoted** as evidence of a native SphereBrain-specific advantage.
+
+See research_releases/2026-09-18_experience_prediction_checkpoint/.
+<!-- EXPERIENCE_PREDICTION_CHECKPOINT_20260918_END -->
