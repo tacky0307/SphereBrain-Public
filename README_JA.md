@@ -1,5 +1,24 @@
 # SphereBrain
 
+
+## 最新の公開研究 — 2026年10月18日：自由媒体と経験による経路形成
+
+**新しい研究の中心仮説**は、外部からの刺激に対してSphereBrain自身が自由な活動経路を形成し、その活動によって変化した媒体が次の活動や将来の推論を変えるというものです。
+
+最終目標は、**LLMが難解な問題の条件を提示し、SphereBrain自身が内部の自由な媒体活動によって解の候補を形成する**こと。LLMは入口の問題変換と出口の言語化を支援し、内部の解法・配線を逐次指定しません。
+
+今回公開した最小6×6媒体実験では、伝導性が経験によって変化し、同じ未来刺激への実際の活動が変わることを独立物理計算で確認しました。**固定格子上の媒体の因果効果であり、自由回路の完成・記憶機能・知性・難問解決が成立したわけではありません**。
+
+- [2026-10-18 公開研究の羅針盤](RESEARCH_COMPASS_JA.md)
+- [自由媒体に関する新指針](research/foundations/EXPERIENCE_SHAPED_MEDIUM_COMPASS_2026_10_18_JA.md)
+- [検証計画と失敗条件](research/foundations/EXPERIENCE_SHAPED_MEDIUM_VERIFICATION_PLAN_JA.md)
+- [数値事前登録・コード・正式結果](research/experiments/experience_shaped_medium_v0/RESULTS_JA.md)
+- [公式結果の再現手順](research/experiments/experience_shaped_medium_v0/PUBLIC_REPRODUCE.md)
+- [研究の公開パッケージ](research_releases/2026-10-18_experience_shaped_medium_v0/README_JA.md)
+
+以下のUnified Experience Core v2.0と過去の公開リリースは**歴史的に独立したマイルストーン**として保存しています。最新の仮説を理由に旧結果を改ざん・再解釈して成功へ昇格させるものではありません。
+
+
 **SphereBrain**は、経験によって形成され続ける内部構造が、認識・記憶・選択、さらに高次の組織化の基盤になり得るかを検証する公開研究です。
 
 > **知性とは、経験によって変化し続ける認識の構造である。**
