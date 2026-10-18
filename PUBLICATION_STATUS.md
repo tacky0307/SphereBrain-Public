@@ -129,3 +129,22 @@ This archive corresponds to the public checkpoint under:
 
 The archive preserves the checkpoint as a research record. It does not promote the experimental mechanisms into the canonical Core and does not establish a unique native SphereBrain route advantage.
 <!-- EXPERIENCE_PREDICTION_CHECKPOINT_ZENODO_END -->
+
+
+---
+
+## 2026-10-18 Public research checkpoint — Experience-Shaped Medium v0
+
+**This section updates the visible status of this public repository; previous release records above remain historical and unchanged.** The old statements about the repository being private or the "latest" release in older dated sections are no longer current repository metadata.
+
+- Public package: [2026-10-18 Experience-Shaped Medium v0](research_releases/2026-10-18_experience_shaped_medium_v0/README_JA.md)
+- Public research compass: [RESEARCH_COMPASS_JA.md](RESEARCH_COMPASS_JA.md)
+- Formal frozen numerical summary: [RESULTS_JA.md](research/experiments/experience_shaped_medium_v0/RESULTS_JA.md)
+- Standalone source, preregistration, independent auditor, contract tests: [experiment package](research/experiments/experience_shaped_medium_v0/)
+- Replay instructions and public automated reproduction: [PUBLIC_REPRODUCE.md](research/experiments/experience_shaped_medium_v0/PUBLIC_REPRODUCE.md)
+
+**Scope**: physically induced medium traces altered later activity in a fixed 6×6 60-face grid, with all 8 preregistered physical gates met in the original six untouched formal sources. This **does not** establish arbitrary free circuits, functional memory, problem solving, general intelligence, or language understanding.
+
+**Publication form**: source and science report published into SphereBrain-Public; no GitHub Release tag or Zenodo DOI is claimed for this checkpoint. The original private formal run and timestamp are cited for provenance only; public CI reruns known seeds as **reproduction**, not fresh untouched holdout science.
+
+Older Unified Experience Core v2.0, 2026-09-18 checkpoint, and past negative findings remain separate, historically preserved milestones.

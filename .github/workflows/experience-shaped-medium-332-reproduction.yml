@@ -1,0 +1,49 @@
+name: Public SphereBrain 332 Medium v0 Reproduction
+on:
+  push:
+    branches:
+      - main
+      - publish/experience-shaped-medium-2026-10-18
+    paths:
+      - .github/workflows/experience-shaped-medium-332-reproduction.yml
+      - research/experiments/experience_shaped_medium_v0/**
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install one public dependency
+        run: python -m pip install numpy
+      - name: Check local physics and independent auditor contracts
+        run: python -m unittest -v research.experiments.experience_shaped_medium_v0.test_contract
+      - name: Replay preregistered diagnostic group
+        shell: bash
+        run: |
+          mkdir -p out/public_medium_332/diagnostic
+          for seed in 332101 332102 332103 332104 332105 332106; do
+            python -m research.experiments.experience_shaped_medium_v0.implementation --seed "$seed" --out "out/public_medium_332/diagnostic/seed_$seed.json"
+          done
+          python -m research.experiments.experience_shaped_medium_v0.aggregate --raw out/public_medium_332/diagnostic --cohort diagnostic --out out/public_medium_332/diagnostic/independent_audit.json
+      - name: Reproduce known official HOLD6 (NOT new untouched science)
+        shell: bash
+        run: |
+          mkdir -p out/public_medium_332/holdout
+          for seed in 332201 332202 332203 332204 332205 332206; do
+            python -m research.experiments.experience_shaped_medium_v0.implementation --seed "$seed" --out "out/public_medium_332/holdout/seed_$seed.json"
+          done
+          python -m research.experiments.experience_shaped_medium_v0.aggregate --raw out/public_medium_332/holdout --cohort holdout --out out/public_medium_332/holdout/independent_audit.json
+          python -c "import json; p=json.load(open('out/public_medium_332/holdout/independent_audit.json')); assert p['c0']=='PASS' and p['verdict']=='MEDIUM_TRACE_CAUSAL_EFFECT_SUPPORTED_IN_FIXED_GRID'; assert all(q['passed'] for q in p['gates'].values()); assert abs(p['means']['M1'] - 0.311776114451282)<1e-8; print('PUBLIC_REPRODUCTION_PASS, not a new holdout')"
+      - name: Archive raw inputs, full physical traces and independent reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: spherebrain-public-332-reproduction
+          path: out/public_medium_332/
+          if-no-files-found: error
+          retention-days: 90

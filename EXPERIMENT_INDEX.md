@@ -165,3 +165,12 @@ The line demonstrated experience-grounded prediction, known-pair native-route as
 
 See research_releases/2026-09-18_experience_prediction_checkpoint/.
 <!-- EXPERIENCE_PREDICTION_CHECKPOINT_20260918_END -->
+
+
+---
+
+## 2026-10-18 — Experience-Shaped Medium v0 / 基礎物理の研究
+
+[Public scientific checkpoint](research_releases/2026-10-18_experience_shaped_medium_v0/README_JA.md) ／ [Full pre-registered report](research/experiments/experience_shaped_medium_v0/RESULTS_JA.md) ／ [Independent physical reproduction](research/experiments/experience_shaped_medium_v0/PUBLIC_REPRODUCE.md)。
+
+固定6×6媒体の局所物理・経験依存の伝導性・活動をリセットした後の未来probeを、正式6seedと独立の別実装による物理監査で確認した。**MEDIUM_TRACE_CAUSAL_EFFECT_SUPPORTED_IN_FIXED_GRID**。形成した媒体の配置・経験順序・消去が後の活動を変えた。**無制限の自由配線、機能的な旧経路の再形成、知性、LLMから提示された問題の自律解答は未成立**。旧版の正否・数値・解釈を変更していない。

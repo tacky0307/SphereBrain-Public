@@ -1,5 +1,22 @@
 # SphereBrain
 
+
+## New Public Research — 2026-10-18: Experience-Shaped Free Medium
+
+Our renewed research hypothesis is that **each incoming stimulus induces transient activity paths inside a freely evolvable computation medium, and experience-driven changes to that medium shape future activity**. The long-term objective is that an external LLM presents a difficult problem and its constraints, while SphereBrain — **not an LLM-designed circuit** — autonomously develops internal activity and produces a candidate solution.
+
+We publish a preregistered, independently replayed **36-cell fixed-grid physical substrate experiment**. Local current-driven conductance traces causally change responses to identical future probes after fast activity is reset. This is **not** yet arbitrary free wiring, functional memory, autonomous problem solving, intelligence, or an advantage over LLMs.
+
+- [Research compass (Japanese)](RESEARCH_COMPASS_JA.md)
+- [Experience-shaped medium research principle (Japanese)](research/foundations/EXPERIENCE_SHAPED_MEDIUM_COMPASS_2026_10_18_JA.md)
+- [Falsifiable medium verification plan](research/foundations/EXPERIENCE_SHAPED_MEDIUM_VERIFICATION_PLAN_JA.md)
+- [Pre-registered experiment and official results](research/experiments/experience_shaped_medium_v0/RESULTS_JA.md)
+- [Public reproduction instructions](research/experiments/experience_shaped_medium_v0/PUBLIC_REPRODUCE.md)
+- [Publication checkpoint](research_releases/2026-10-18_experience_shaped_medium_v0/README_JA.md)
+
+**The earlier Unified Experience Core v2.0 below remains a separate historical public milestone.** No earlier success, partial or negative finding has been retroactively revised.
+
+
 **SphereBrain** is an open experimental research project investigating whether intelligence can be shaped by internal structures that change through experience.
 
 > **Intelligence may be an evolving structure of recognition shaped by experience.**
